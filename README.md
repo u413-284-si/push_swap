@@ -5,7 +5,6 @@ This project sorts integers on a stack - which are provided in a random order - 
 
 The integer values are provided in a first stack 'a'. Their range spans positive as well as negative numbers, but there cannot be duplicates. A second stack 'b' serves as temporary buffer to store and manipulate selected values. A set of operations are allowed to transfer values between the stacks and manipulate their position within each respective stack.
 
-```
 <pre>
 <b>sa</b> (swap a): Swap the first 2 elements at the top of stack a.
 Do nothing if there is only one or no elements.
@@ -37,7 +36,6 @@ The last element becomes the first one.
 
 <b>rrr</b> : rra and rrb at the same time.
 </pre>
-```
 
 The goal is to sort in ascending order the numbers into stack 'a'. The minimum required operations to achieve this goal are displayed unto the terminal.
 
