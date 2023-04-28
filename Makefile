@@ -6,7 +6,7 @@
 #    By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/05 10:37:52 by sqiu              #+#    #+#              #
-#    Updated: 2023/03/31 19:29:53 by sqiu             ###   ########.fr        #
+#    Updated: 2023/04/28 10:21:27 by sqiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,13 +23,11 @@ DEBUG		= -g
 CC 			= cc
 
 INCDIR		= ./inc/
-INCLIST		= pipex.h children.h cleanup.h commands.h error.h initiate.h \
-			utils.h
+INCLIST		= push_swap.h error.h input_check.h terminate.h
 INC			= $(addprefix ${INCDIR}, ${INCLIST})
 
 SRCDIR		= ./src/
-SRCLIST		= children.c cleanup.c commands.c error.c initiate.c main.c \
-			utils.c
+SRCLIST		= main.c input_check.c terminate.c
 SRC			= $(addprefix ${SRCDIR}, ${SRCLIST})
 
 
@@ -95,13 +93,4 @@ valgr:
 						./pipex infile "wc" "cat" outfile
 				@less ./valgrind-out.txt
 
-valgr_b:			
-				@valgrind --leak-check=full\
-						--show-leak-kinds=all\
-						--trace-children=yes\
-						--track-fds=yes\
-						--log-file=valgrind-out.txt\
-						./super_pipex infile "wc" "wc -l" "cat" outfile
-				@less ./valgrind-out.txt
-
-.PHONY: 		all bonus clean fclean re valgr valgr_b
+.PHONY: 		all clean fclean re valgr

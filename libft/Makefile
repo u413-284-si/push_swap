@@ -6,7 +6,7 @@
 #    By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/05 10:37:52 by sqiu              #+#    #+#              #
-#    Updated: 2023/03/20 16:12:56 by sqiu             ###   ########.fr        #
+#    Updated: 2023/04/28 10:18:03 by sqiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,8 +50,8 @@ WHITE = \033[0;97m
 all: $(NAME)
 
 $(NAME): $(OBJ) $(OBJB)
-		@$(MAKE) all --no-print-directory -C ./gnl
-		@cp gnl/libgnl.a $@
+		@$(MAKE) all --no-print-directory -C ./ft_printf
+		@cp ft_printf/libftprintf.a $@
 		@echo "$(YELLOW)Compiling: $^ $(DEF_COLOR)"
 		@ar rcs $@ $^
 		@echo "$(GREEN)libft compiled!$(DEF_COLOR)"
@@ -61,13 +61,11 @@ $(NAME): $(OBJ) $(OBJB)
 
 clean:
 		@$(MAKE) clean --no-print-directory -C ./ft_printf
-		@$(MAKE) clean --no-print-directory -C ./gnl
 		@rm -f $(OBJ) $(OBJB)
 		@echo "$(BLUE)libft object files cleaned!$(DEF_COLOR)"
 
 fclean:
 		@$(MAKE) fclean --no-print-directory -C ./ft_printf
-		@$(MAKE) fclean --no-print-directory -C ./gnl
 		@rm -f $(NAME)
 		@echo "$(CYAN)libft executable cleaned!$(DEF_COLOR)"
 
