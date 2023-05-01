@@ -6,7 +6,7 @@
 #    By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/05 10:37:52 by sqiu              #+#    #+#              #
-#    Updated: 2023/04/28 10:21:27 by sqiu             ###   ########.fr        #
+#    Updated: 2023/05/01 21:52:18 by sqiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,11 +23,11 @@ DEBUG		= -g
 CC 			= cc
 
 INCDIR		= ./inc/
-INCLIST		= push_swap.h error.h input_check.h terminate.h
+INCLIST		= error.h initiate.h input_check.h push_swap.h terminate.h
 INC			= $(addprefix ${INCDIR}, ${INCLIST})
 
 SRCDIR		= ./src/
-SRCLIST		= main.c input_check.c terminate.c
+SRCLIST		= initiate.c input_check.c main.c terminate.c
 SRC			= $(addprefix ${SRCDIR}, ${SRCLIST})
 
 

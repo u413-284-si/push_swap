@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:46:30 by sqiu              #+#    #+#             */
-/*   Updated: 2023/04/28 14:58:38 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/01 21:50:05 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,9 @@ void	ft_input_check(char **argv, t_meta *meta)
 	int	j;
 	int	len;
 
-	i = 1;
-	while (argv[i])
+	i = 0;
+	meta->num_count = 0;
+	while (argv[++i])
 	{
 		j = 0;
 		while (argv[i][j])
@@ -38,7 +39,6 @@ void	ft_input_check(char **argv, t_meta *meta)
 			j += len;
 			meta->num_count++;
 		}
-		i++;
 	}
 }
 
