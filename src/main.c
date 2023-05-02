@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:15:52 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 10:42:19 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/02 11:10:45 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	main(int argc, char **argv)
 		exit(1);
 	ft_input_check(argv, &meta);
 	ft_initiate(argv, &meta);
-	//ft_no_duplicates(&meta);
+	ft_no_duplicates(&meta);
 	
 	//printf("%d\n\n", meta.num_count);
 	int	i = 0;
