@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:46:30 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/01 21:50:05 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/02 10:42:23 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,3 +61,11 @@ int	ft_is_num(char *s)
 		i++;
 	return (i);
 }
+
+/* This function checks whether there exist no duplicates among the provided
+ values. */
+
+/* int	ft_no_duplicates(t_meta *meta)
+{
+
+} */

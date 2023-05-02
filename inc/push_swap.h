@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:24:55 by sqiu              #+#    #+#             */
-/*   Updated: 2023/04/28 15:55:45 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/02 10:50:03 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdbool.h>
+# include <limits.h>				/* required for INT_MIN and INT_MAX*/
 # include "../libft/ft_printf/ft_printf.h"
+# include "../libft/libft.h"
 
 /* ====== DEFINITIONS ====== */
 
