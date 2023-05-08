@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:54:33 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/01 17:29:23 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/02 11:45:28 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,14 @@ void	ft_terminate(void)
 	exit(1);
 }
 
-void	ft_backtozero(t_meta *meta)
+void	ft_backtozero(t_meta *meta, bool error)
 {
 	if (meta->a.arr)
 		free(meta->a.arr);
 	if (meta->b.arr)
 		free(meta->b.arr);
-	ft_terminate();
+	if (error)
+		ft_terminate();
+	else
+		exit(0);
 }

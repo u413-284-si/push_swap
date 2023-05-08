@@ -1,21 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   terminate.h                                        :+:      :+:    :+:   */
+/*   simple_sort.h                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/28 09:54:46 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 11:45:38 by sqiu             ###   ########.fr       */
+/*   Created: 2023/05/05 15:52:08 by sqiu              #+#    #+#             */
+/*   Updated: 2023/05/05 15:52:43 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TERMINATE_H
-# define TERMINATE_H
+#ifndef SIMPLE_SORT_H
+# define SIMPLE_SORT_H
 
-/* ====== FUNCTIONS ====== */
+/* ====== Functions ====== */
 
-void	ft_terminate(void);
-void	ft_backtozero(t_meta *meta, bool error);
 
 #endif

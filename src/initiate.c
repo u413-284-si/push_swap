@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 14:59:15 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 10:55:34 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/02 11:47:00 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	ft_initiate(char **argv, t_meta *meta)
 		ft_terminate();
 	meta->b.arr = (int *) malloc(sizeof(int) * meta->num_count);
 	if (!meta->b.arr)
-		ft_backtozero(meta);
+		ft_backtozero(meta, 1);
 	ft_parse(argv, meta);
 }
 
@@ -98,9 +98,9 @@ int	ft_atoi_mod(const char *str, t_meta *meta)
 	{
 		result = result * 10 + str[i++] - '0';
 		if (result * sign > 2147483647)
-			ft_backtozero(meta);
+			ft_backtozero(meta, 1);
 		if (result * sign < -2147483648)
-			ft_backtozero(meta);
+			ft_backtozero(meta, 1);
 	}		
 	return (result * sign);
 }

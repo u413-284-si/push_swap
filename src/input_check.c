@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:46:30 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 11:29:10 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/02 11:46:09 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,6 @@ void	ft_no_duplicates(t_meta *meta)
 		j = i;
 		while (meta->a.arr[++j])
 			if (meta->a.arr[i] == meta->a.arr[j])
-				ft_backtozero(meta);
+				ft_backtozero(meta, 1);
 	}
 }

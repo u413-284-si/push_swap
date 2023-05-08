@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:15:52 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 11:10:45 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/02 11:59:43 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include "../inc/input_check.h"
 #include "../inc/terminate.h"
 #include "../inc/initiate.h"
+#include "../inc/sort.h"
 
 int	main(int argc, char **argv)
 {
@@ -24,6 +25,7 @@ int	main(int argc, char **argv)
 	ft_input_check(argv, &meta);
 	ft_initiate(argv, &meta);
 	ft_no_duplicates(&meta);
+	ft_sort(&meta);
 	
 	//printf("%d\n\n", meta.num_count);
 	int	i = 0;
