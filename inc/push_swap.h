@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:24:55 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 10:50:03 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/08 16:20:31 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@
 
 typedef struct s_stack
 {
-	int	max_size;
+	int	size;
 	int	top;
 	int	*arr;
 }	t_stack;

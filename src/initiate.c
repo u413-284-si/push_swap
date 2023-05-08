@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 14:59:15 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 11:47:00 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/08 16:21:06 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,10 @@ stack.*/
 
 void	ft_init(t_meta *meta)
 {
-	meta->a.max_size = meta->num_count;
-	meta->b.max_size = meta->num_count;
+	meta->a.size = meta->num_count;
+	meta->b.size = 0;
 	meta->a.top = meta->num_count - 1;
-	meta->b.top = 0;
+	meta->b.top = -1;
 }
 
 /* This function stores the input numbers in stack a represented as an
