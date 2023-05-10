@@ -6,13 +6,14 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/05 15:40:05 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/09 10:43:16 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/push_swap.h"
 #include "../inc/sort.h"
 #include "../inc/terminate.h"
+#include "../inc/simple_sort.h"
 
 /* This function differentiates between the amount of values to be sorted and
 assigns a sorting algorithm accordingly. Prior to that it calls a subfunction
@@ -25,10 +26,10 @@ void	ft_sort(t_meta *meta)
 		ft_backtozero(meta, 0);
 	if (meta->num_count <= 5)
 		ft_simple_sort(meta);
-	else if (meta->num_count < 64)
+/* 	else if (meta->num_count < 64)
 		ft_insertion_sort(meta);
 	else
-		ft_quicksort(meta);
+		ft_quicksort(meta); */
 }
 
 /* This function verifies whether stack a is already sorted in ascending order

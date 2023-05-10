@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 14:59:15 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/08 16:21:06 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/10 22:57:18 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_initiate(char **argv, t_meta *meta)
 	meta->a.arr = (int *) malloc(sizeof(int) * meta->num_count);
 	if (!meta->a.arr)
 		ft_terminate();
-	meta->b.arr = (int *) malloc(sizeof(int) * meta->num_count);
+	meta->b.arr = (int *) ft_calloc(meta->num_count, sizeof(int));
 	if (!meta->b.arr)
 		ft_backtozero(meta, 1);
 	ft_parse(argv, meta);
@@ -59,7 +59,7 @@ void	ft_parse(char **argv, t_meta *meta)
 	int	top;
 	int	arr_index;
 
-	top = meta->a.max_size;
+	top = meta->a.size;
 	i = 0;
 	arr_index = 1;
 	while (argv[++i])

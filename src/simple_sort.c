@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 15:51:57 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/08 17:25:43 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/10 22:50:21 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ void	ft_sort_four(t_meta *meta)
 	int	pos;
 
 	pos = ft_find_min(meta);
-	if (pos <= meta->num_count / 2)
+	if (pos <= meta->a.size / 2)
 		ft_rotate("up", pos, meta);
 	else
 		ft_rotate("down", pos, meta);
@@ -104,13 +104,13 @@ void	ft_sort_five(t_meta *meta)
 	while (++i < 2)
 	{
 		pos = ft_find_min(meta);
-		if (pos <= meta->num_count / 2)
+		if (pos <= meta->a.size / 2)
 			ft_rotate("up", pos, meta);
 		else
 			ft_rotate("down", pos, meta);
-		ft_pb(meta, true);
 		if (ft_is_sorted(meta))
 			ft_backtozero(meta, 0);
+		ft_pb(meta, true);
 	}
 	ft_sort_three(meta);
 	ft_pa(meta, true);
