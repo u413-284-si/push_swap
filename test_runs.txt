@@ -1,0 +1,4212 @@
+##################################################
+Test Runs (5 numbers, range -400000-400000)
+##################################################
+Test Run 1:
+Generated numbers: -114721 161099 72733 -69592 270990
+
+Output of wc -l:
+14
+
+Test Run 2:
+Generated numbers: 166635 122974 301707 169243 218471
+
+Output of wc -l:
+13
+
+Test Run 3:
+Generated numbers: -3338 47173 -116518 223302 257622
+
+Output of wc -l:
+16
+
+Test Run 4:
+Generated numbers: -141577 192419 201377 97077 48968
+
+Output of wc -l:
+12
+
+Test Run 5:
+Generated numbers: -129456 -5232 -166619 1079 -352956
+
+Output of wc -l:
+14
+
+Test Run 6:
+Generated numbers: -218428 -249094 112168 -272411 -213627
+
+Output of wc -l:
+16
+
+Test Run 7:
+Generated numbers: 29106 334959 -194978 -134863 -152718
+
+Output of wc -l:
+14
+
+Test Run 8:
+Generated numbers: -251308 156815 -388548 338776 -179936
+
+Output of wc -l:
+15
+
+Test Run 9:
+Generated numbers: -320851 -350700 58865 274054 -396362
+
+Output of wc -l:
+13
+
+Test Run 10:
+Generated numbers: -123158 -109105 -177528 259294 -75905
+
+Output of wc -l:
+16
+
+Test Run 11:
+Generated numbers: 120708 140635 239385 283439 167472
+
+Output of wc -l:
+11
+
+Test Run 12:
+Generated numbers: -87076 -717 -704 26497 -300701
+
+Output of wc -l:
+1
+
+Test Run 13:
+Generated numbers: 257420 371826 348369 -298658 349409
+
+Output of wc -l:
+14
+
+Test Run 14:
+Generated numbers: 84970 -207325 205925 -22344 155365
+
+Output of wc -l:
+13
+
+Test Run 15:
+Generated numbers: 311827 233935 393482 44947 365875
+
+Output of wc -l:
+16
+
+Test Run 16:
+Generated numbers: 175579 375741 155105 -327962 -146242
+
+Output of wc -l:
+13
+
+Test Run 17:
+Generated numbers: -189907 253950 354401 -96485 291997
+
+Output of wc -l:
+13
+
+Test Run 18:
+Generated numbers: 120682 356549 131866 -195701 111303
+
+Output of wc -l:
+14
+
+Test Run 19:
+Generated numbers: -158564 -319572 508 194343 357340
+
+Output of wc -l:
+14
+
+Test Run 20:
+Generated numbers: -37508 289807 195734 -210332 106150
+
+Output of wc -l:
+15
+
+Test Run 21:
+Generated numbers: -61740 211019 -258916 -279888 -195463
+
+Output of wc -l:
+15
+
+Test Run 22:
+Generated numbers: 152352 156398 -188617 -367824 224769
+
+Output of wc -l:
+14
+
+Test Run 23:
+Generated numbers: -397578 138399 398203 155842 152509
+
+Output of wc -l:
+12
+
+Test Run 24:
+Generated numbers: -26053 -170526 236101 70566 -285542
+
+Output of wc -l:
+14
+
+Test Run 25:
+Generated numbers: -239857 -29755 354234 -200556 301470
+
+Output of wc -l:
+13
+
+Test Run 26:
+Generated numbers: -35782 -232470 -228848 34315 269434
+
+Output of wc -l:
+12
+
+Test Run 27:
+Generated numbers: 119071 -322988 126307 174226 354205
+
+Output of wc -l:
+3
+
+Test Run 28:
+Generated numbers: 305091 -156671 -274138 307986 -389919
+
+Output of wc -l:
+15
+
+Test Run 29:
+Generated numbers: 279427 -342072 -121501 233940 -219399
+
+Output of wc -l:
+14
+
+Test Run 30:
+Generated numbers: -395723 70445 131014 84787 -294349
+
+Output of wc -l:
+13
+
+Test Run 31:
+Generated numbers: 143895 -399254 277085 26943 295270
+
+Output of wc -l:
+13
+
+Test Run 32:
+Generated numbers: 283929 391439 180817 152644 -303451
+
+Output of wc -l:
+13
+
+Test Run 33:
+Generated numbers: -169908 -95825 339645 -125132 -240104
+
+Output of wc -l:
+12
+
+Test Run 34:
+Generated numbers: 146882 -145628 36541 67057 97646
+
+Output of wc -l:
+1
+
+Test Run 35:
+Generated numbers: 354336 -48345 7953 159265 19387
+
+Output of wc -l:
+12
+
+Test Run 36:
+Generated numbers: -88912 -359687 -112103 -56489 228002
+
+Output of wc -l:
+12
+
+Test Run 37:
+Generated numbers: -216468 -95887 -263306 126578 -208555
+
+Output of wc -l:
+15
+
+Test Run 38:
+Generated numbers: -172524 273608 -184976 171040 -153502
+
+Output of wc -l:
+16
+
+Test Run 39:
+Generated numbers: 191521 84676 -370655 232066 17896
+
+Output of wc -l:
+14
+
+Test Run 40:
+Generated numbers: -69879 -296938 114413 150892 382518
+
+Output of wc -l:
+14
+
+Test Run 41:
+Generated numbers: -20167 241958 172002 -387276 48438
+
+Output of wc -l:
+15
+
+Test Run 42:
+Generated numbers: -192683 -350454 -142647 -189844 109621
+
+Output of wc -l:
+13
+
+Test Run 43:
+Generated numbers: -182800 12041 47290 90973 -196190
+
+Output of wc -l:
+1
+
+Test Run 44:
+Generated numbers: 129528 317920 301508 125567 -323548
+
+Output of wc -l:
+14
+
+Test Run 45:
+Generated numbers: 239488 198026 226890 -141040 19687
+
+Output of wc -l:
+13
+
+Test Run 46:
+Generated numbers: 47506 816 110108 -323955 -304425
+
+Output of wc -l:
+13
+
+Test Run 47:
+Generated numbers: -185274 -165451 -115857 -267687 309918
+
+Output of wc -l:
+15
+
+Test Run 48:
+Generated numbers: 102315 -57628 -56160 -193905 -148120
+
+Output of wc -l:
+13
+
+Test Run 49:
+Generated numbers: 136073 308752 -150291 -10394 21331
+
+Output of wc -l:
+2
+
+Test Run 50:
+Generated numbers: -130099 281692 -202668 -231423 245842
+
+Output of wc -l:
+14
+
+Test Run 51:
+Generated numbers: -67328 280145 -322566 -71144 -174620
+
+Output of wc -l:
+14
+
+Test Run 52:
+Generated numbers: 210773 362652 73798 231741 34688
+
+Output of wc -l:
+14
+
+Test Run 53:
+Generated numbers: 202547 207783 301535 -348295 165213
+
+Output of wc -l:
+2
+
+Test Run 54:
+Generated numbers: -10934 152343 -60193 365208 -165380
+
+Output of wc -l:
+14
+
+Test Run 55:
+Generated numbers: 349086 -372076 -23013 -303554 -33074
+
+Output of wc -l:
+14
+
+Test Run 56:
+Generated numbers: 254300 -339845 -299958 -308794 -330314
+
+Output of wc -l:
+15
+
+Test Run 57:
+Generated numbers: -48176 -336807 55437 178658 -151125
+
+Output of wc -l:
+15
+
+Test Run 58:
+Generated numbers: 340507 294987 172247 -214667 369713
+
+Output of wc -l:
+15
+
+Test Run 59:
+Generated numbers: -50703 392029 -123744 179314 -93998
+
+Output of wc -l:
+15
+
+Test Run 60:
+Generated numbers: -334005 -319349 286487 181797 -88191
+
+Output of wc -l:
+12
+
+Test Run 61:
+Generated numbers: -357562 -133962 291239 -226658 -238102
+
+Output of wc -l:
+12
+
+Test Run 62:
+Generated numbers: -152874 -262845 -267779 -87314 -396513
+
+Output of wc -l:
+15
+
+Test Run 63:
+Generated numbers: 357569 -225723 13144 138202 258971
+
+Output of wc -l:
+1
+
+Test Run 64:
+Generated numbers: -352300 -329329 392326 122882 158450
+
+Output of wc -l:
+11
+
+Test Run 65:
+Generated numbers: 3118 -358892 152280 128050 308076
+
+Output of wc -l:
+13
+
+Test Run 66:
+Generated numbers: 270750 -96556 370644 142493 -91576
+
+Output of wc -l:
+14
+
+Test Run 67:
+Generated numbers: -146616 -192609 142789 -383301 173225
+
+Output of wc -l:
+15
+
+Test Run 68:
+Generated numbers: 25620 332916 -178623 -362458 197558
+
+Output of wc -l:
+14
+
+Test Run 69:
+Generated numbers: -37179 115254 263740 30865 -315180
+
+Output of wc -l:
+12
+
+Test Run 70:
+Generated numbers: -103775 255860 55572 272108 17932
+
+Output of wc -l:
+12
+
+Test Run 71:
+Generated numbers: -37360 -365402 -267287 316851 -54446
+
+Output of wc -l:
+12
+
+Test Run 72:
+Generated numbers: 15034 -81825 -142404 -214573 399874
+
+Output of wc -l:
+15
+
+Test Run 73:
+Generated numbers: 371065 118569 114494 234790 -10086
+
+Output of wc -l:
+14
+
+Test Run 74:
+Generated numbers: 210289 -49626 -228530 50133 -130442
+
+Output of wc -l:
+14
+
+Test Run 75:
+Generated numbers: 128715 -102027 -119402 302012 -155540
+
+Output of wc -l:
+15
+
+Test Run 76:
+Generated numbers: -213068 324780 342919 386639 -138931
+
+Output of wc -l:
+13
+
+Test Run 77:
+Generated numbers: -395245 -176965 47883 269930 7762
+
+Output of wc -l:
+11
+
+Test Run 78:
+Generated numbers: -135497 83214 243027 73837 -398597
+
+Output of wc -l:
+12
+
+Test Run 79:
+Generated numbers: -12192 -113978 -388003 -306032 261949
+
+Output of wc -l:
+14
+
+Test Run 80:
+Generated numbers: 31128 199007 118168 -282619 56945
+
+Output of wc -l:
+15
+
+Test Run 81:
+Generated numbers: -176037 22560 -292696 -251818 -358431
+
+Output of wc -l:
+15
+
+Test Run 82:
+Generated numbers: -374899 -378164 222566 121611 -141373
+
+Output of wc -l:
+14
+
+Test Run 83:
+Generated numbers: -256345 -144969 172992 47578 -316399
+
+Output of wc -l:
+13
+
+Test Run 84:
+Generated numbers: -345742 109197 106989 -279018 198858
+
+Output of wc -l:
+14
+
+Test Run 85:
+Generated numbers: 230254 -271703 349714 275422 123915
+
+Output of wc -l:
+15
+
+Test Run 86:
+Generated numbers: 209011 385287 -199827 -48709 78980
+
+Output of wc -l:
+2
+
+Test Run 87:
+Generated numbers: 166313 -290659 -105831 377307 114232
+
+Output of wc -l:
+12
+
+Test Run 88:
+Generated numbers: -232663 287586 193842 22523 -226115
+
+Output of wc -l:
+13
+
+Test Run 89:
+Generated numbers: 84863 236354 46834 -123133 -318015
+
+Output of wc -l:
+13
+
+Test Run 90:
+Generated numbers: -330638 -209008 107531 -51898 327009
+
+Output of wc -l:
+11
+
+Test Run 91:
+Generated numbers: 389603 223735 274243 231780 -367386
+
+Output of wc -l:
+13
+
+Test Run 92:
+Generated numbers: 98419 107992 160861 -276944 211793
+
+Output of wc -l:
+4
+
+Test Run 93:
+Generated numbers: 256100 -213831 254011 -297811 -353980
+
+Output of wc -l:
+13
+
+Test Run 94:
+Generated numbers: -311815 -64940 -247152 -192051 150735
+
+Output of wc -l:
+13
+
+Test Run 95:
+Generated numbers: -1423 192500 -371802 -151047 148401
+
+Output of wc -l:
+13
+
+Test Run 96:
+Generated numbers: 393388 -214770 -1731 -302202 -346207
+
+Output of wc -l:
+13
+
+Test Run 97:
+Generated numbers: -78155 -222931 -88492 -373124 320158
+
+Output of wc -l:
+16
+
+Test Run 98:
+Generated numbers: 52613 208319 370745 241526 -386834
+
+Output of wc -l:
+13
+
+Test Run 99:
+Generated numbers: -275478 -61569 176971 267158 -164733
+
+Output of wc -l:
+13
+
+Test Run 100:
+Generated numbers: 193419 -82379 -16862 -282370 -286651
+
+Output of wc -l:
+13
+
+Average Line Count: 12.57
+##################################################
+Test Runs (5 numbers, range -400000-400000)
+##################################################
+Test Run 1:
+Generated numbers: 171742 169008 100207 392708 -259905
+
+Output of wc -l:
+9
+
+Test Run 2:
+Generated numbers: -322985 -333360 162742 31243 -344626
+
+Output of wc -l:
+8
+
+Test Run 3:
+Generated numbers: 338158 146475 320351 195048 346586
+
+Output of wc -l:
+8
+
+Test Run 4:
+Generated numbers: -204074 -265318 -152501 -43596 76441
+
+Output of wc -l:
+8
+
+Test Run 5:
+Generated numbers: -324139 310084 -132541 263795 83015
+
+Output of wc -l:
+6
+
+Test Run 6:
+Generated numbers: -114607 -131237 207893 -92584 234050
+
+Output of wc -l:
+7
+
+Test Run 7:
+Generated numbers: 18831 -317836 69466 39436 -75071
+
+Output of wc -l:
+9
+
+Test Run 8:
+Generated numbers: 202984 15223 17929 216443 -115420
+
+Output of wc -l:
+8
+
+Test Run 9:
+Generated numbers: -344586 -189606 -145363 -167807 283978
+
+Output of wc -l:
+5
+
+Test Run 10:
+Generated numbers: 295383 -186281 -72983 -301357 -279920
+
+Output of wc -l:
+7
+
+Test Run 11:
+Generated numbers: 91480 -297593 203780 -264284 65591
+
+Output of wc -l:
+8
+
+Test Run 12:
+Generated numbers: -291082 325616 -303915 -208631 -201450
+
+Output of wc -l:
+9
+
+Test Run 13:
+Generated numbers: -26259 -292679 -353755 -284078 -385712
+
+Output of wc -l:
+8
+
+Test Run 14:
+Generated numbers: -58366 174557 -140001 329489 180288
+
+Output of wc -l:
+10
+
+Test Run 15:
+Generated numbers: -225911 365843 282523 -72929 -12845
+
+Output of wc -l:
+8
+
+Test Run 16:
+Generated numbers: 358838 95370 10534 32177 7165
+
+Output of wc -l:
+9
+
+Test Run 17:
+Generated numbers: 326100 -161940 100798 -218668 -321710
+
+Output of wc -l:
+7
+
+Test Run 18:
+Generated numbers: 234334 -150834 8001 -58560 226374
+
+Output of wc -l:
+7
+
+Test Run 19:
+Generated numbers: -294092 244209 -219706 243844 374866
+
+Output of wc -l:
+7
+
+Test Run 20:
+Generated numbers: -348089 -24103 -394761 361421 60151
+
+Output of wc -l:
+10
+
+Test Run 21:
+Generated numbers: -229418 -308859 205185 -324123 100351
+
+Output of wc -l:
+10
+
+Test Run 22:
+Generated numbers: 359663 90939 -377515 -274760 -103594
+
+Output of wc -l:
+8
+
+Test Run 23:
+Generated numbers: 113896 56045 -28807 -341655 -323161
+
+Output of wc -l:
+8
+
+Test Run 24:
+Generated numbers: -164582 90241 251839 -173241 241805
+
+Output of wc -l:
+9
+
+Test Run 25:
+Generated numbers: 147399 261256 -178560 109788 -397092
+
+Output of wc -l:
+9
+
+Test Run 26:
+Generated numbers: 206337 224631 339845 -96822 112685
+
+Output of wc -l:
+2
+
+Test Run 27:
+Generated numbers: -302709 203889 292608 113767 317753
+
+Output of wc -l:
+7
+
+Test Run 28:
+Generated numbers: -137310 -377177 154137 311879 307159
+
+Output of wc -l:
+8
+
+Test Run 29:
+Generated numbers: 232957 -312311 260038 150345 393677
+
+Output of wc -l:
+7
+
+Test Run 30:
+Generated numbers: 327252 -272546 -293646 231952 204030
+
+Output of wc -l:
+8
+
+Test Run 31:
+Generated numbers: 380644 187497 306534 184934 23670
+
+Output of wc -l:
+7
+
+Test Run 32:
+Generated numbers: 213051 304698 -384059 140717 -102955
+
+Output of wc -l:
+8
+
+Test Run 33:
+Generated numbers: -2432 -399660 -294709 -151831 -340401
+
+Output of wc -l:
+8
+
+Test Run 34:
+Generated numbers: -397320 -80415 -212309 222759 -386699
+
+Output of wc -l:
+6
+
+Test Run 35:
+Generated numbers: -26056 -132920 -132073 -203863 -214696
+
+Output of wc -l:
+7
+
+Test Run 36:
+Generated numbers: 238598 -219501 -117884 359669 -281927
+
+Output of wc -l:
+8
+
+Test Run 37:
+Generated numbers: -387772 -273902 -399915 350761 -156994
+
+Output of wc -l:
+10
+
+Test Run 38:
+Generated numbers: 130225 250720 373379 303509 202180
+
+Output of wc -l:
+7
+
+Test Run 39:
+Generated numbers: -2890 242659 -172291 -131058 172627
+
+Output of wc -l:
+7
+
+Test Run 40:
+Generated numbers: -306746 386669 -332880 -166292 -48370
+
+Output of wc -l:
+9
+
+Test Run 41:
+Generated numbers: -104603 229630 -222505 102171 -202574
+
+Output of wc -l:
+9
+
+Test Run 42:
+Generated numbers: 301614 241897 85339 120037 -93413
+
+Output of wc -l:
+9
+
+Test Run 43:
+Generated numbers: -209820 315574 24931 -89302 -168069
+
+Output of wc -l:
+7
+
+Test Run 44:
+Generated numbers: -81312 -111493 47425 -374333 -130939
+
+Output of wc -l:
+7
+
+Test Run 45:
+Generated numbers: 9657 -51871 -31051 -277752 -339861
+
+Output of wc -l:
+7
+
+Test Run 46:
+Generated numbers: -13253 -116651 78321 -101194 -262914
+
+Output of wc -l:
+7
+
+Test Run 47:
+Generated numbers: -113828 367841 84987 -65656 147789
+
+Output of wc -l:
+7
+
+Test Run 48:
+Generated numbers: -160153 95821 -114829 293451 296392
+
+Output of wc -l:
+6
+
+Test Run 49:
+Generated numbers: -228431 -164409 213411 78027 136490
+
+Output of wc -l:
+5
+
+Test Run 50:
+Generated numbers: 186096 311746 74978 -343160 24539
+
+Output of wc -l:
+7
+
+Test Run 51:
+Generated numbers: 181437 235049 -291911 -340403 -203762
+
+Output of wc -l:
+9
+
+Test Run 52:
+Generated numbers: -177939 -233054 -159500 -172600 -56192
+
+Output of wc -l:
+7
+
+Test Run 53:
+Generated numbers: 32879 -137124 285272 170736 189262
+
+Output of wc -l:
+7
+
+Test Run 54:
+Generated numbers: -13547 272227 244795 54353 -297533
+
+Output of wc -l:
+7
+
+Test Run 55:
+Generated numbers: 125575 94457 -61163 190531 -389431
+
+Output of wc -l:
+9
+
+Test Run 56:
+Generated numbers: 315629 300672 -111113 -372299 -392033
+
+Output of wc -l:
+8
+
+Test Run 57:
+Generated numbers: -92730 -34196 390359 40024 -116856
+
+Output of wc -l:
+7
+
+Test Run 58:
+Generated numbers: -212344 -129764 318484 350956 152641
+
+Output of wc -l:
+5
+
+Test Run 59:
+Generated numbers: 91408 342869 112737 318304 -208977
+
+Output of wc -l:
+6
+
+Test Run 60:
+Generated numbers: 370250 -275695 271722 -315425 30740
+
+Output of wc -l:
+9
+
+Test Run 61:
+Generated numbers: -252231 325050 -54234 369772 -280738
+
+Output of wc -l:
+6
+
+Test Run 62:
+Generated numbers: -308030 13115 313263 325760 -149216
+
+Output of wc -l:
+7
+
+Test Run 63:
+Generated numbers: 390230 46666 305390 164745 -24833
+
+Output of wc -l:
+7
+
+Test Run 64:
+Generated numbers: -80329 262470 336793 -36782 -344571
+
+Output of wc -l:
+6
+
+Test Run 65:
+Generated numbers: 20733 219170 247786 354514 220516
+
+Output of wc -l:
+5
+
+Test Run 66:
+Generated numbers: 386013 283722 -23410 -6578 -256844
+
+Output of wc -l:
+9
+
+Test Run 67:
+Generated numbers: -260273 188052 304585 -320007 18845
+
+Output of wc -l:
+8
+
+Test Run 68:
+Generated numbers: 258320 -39827 360211 -38129 331204
+
+Output of wc -l:
+7
+
+Test Run 69:
+Generated numbers: -227478 -170088 -13534 32649 -180649
+
+Output of wc -l:
+7
+
+Test Run 70:
+Generated numbers: -92282 172731 -225642 -343379 -404
+
+Output of wc -l:
+8
+
+Test Run 71:
+Generated numbers: -97230 357511 378732 -245472 106587
+
+Output of wc -l:
+8
+
+Test Run 72:
+Generated numbers: 323056 180839 -73393 -278065 -285826
+
+Output of wc -l:
+8
+
+Test Run 73:
+Generated numbers: -288801 -222901 277821 -94662 -295177
+
+Output of wc -l:
+7
+
+Test Run 74:
+Generated numbers: -112189 -14786 53833 -224598 68401
+
+Output of wc -l:
+9
+
+Test Run 75:
+Generated numbers: -164235 385139 140283 -278076 22012
+
+Output of wc -l:
+9
+
+Test Run 76:
+Generated numbers: -104566 -144877 160543 -121396 159503
+
+Output of wc -l:
+7
+
+Test Run 77:
+Generated numbers: 336033 260690 92039 -369471 247766
+
+Output of wc -l:
+9
+
+Test Run 78:
+Generated numbers: 358078 -386783 -135310 -330697 -383578
+
+Output of wc -l:
+9
+
+Test Run 79:
+Generated numbers: -274338 -298686 348445 -51696 -197075
+
+Output of wc -l:
+8
+
+Test Run 80:
+Generated numbers: -207586 -104919 362313 -7454 235240
+
+Output of wc -l:
+5
+
+Test Run 81:
+Generated numbers: -30007 -82684 50831 272494 -192232
+
+Output of wc -l:
+7
+
+Test Run 82:
+Generated numbers: -148657 -367333 -50960 -143198 -119253
+
+Output of wc -l:
+7
+
+Test Run 83:
+Generated numbers: -234524 120763 66501 -5104 12746
+
+Output of wc -l:
+8
+
+Test Run 84:
+Generated numbers: -164911 3521 124807 -324203 -304508
+
+Output of wc -l:
+2
+
+Test Run 85:
+Generated numbers: 308289 271519 276217 134893 -256415
+
+Output of wc -l:
+7
+
+Test Run 86:
+Generated numbers: 93144 7401 -365418 -140962 153056
+
+Output of wc -l:
+8
+
+Test Run 87:
+Generated numbers: 218054 -58580 140400 169208 -66641
+
+Output of wc -l:
+8
+
+Test Run 88:
+Generated numbers: 232694 8929 286389 383332 168736
+
+Output of wc -l:
+4
+
+Test Run 89:
+Generated numbers: 45467 67229 294250 126333 -106338
+
+Output of wc -l:
+7
+
+Test Run 90:
+Generated numbers: -299210 359469 -35838 -247799 -171257
+
+Output of wc -l:
+8
+
+Test Run 91:
+Generated numbers: -373080 78526 127286 -369095 387054
+
+Output of wc -l:
+7
+
+Test Run 92:
+Generated numbers: 195173 360976 8794 9924 48833
+
+Output of wc -l:
+2
+
+Test Run 93:
+Generated numbers: -384130 204274 304676 -112402 -28732
+
+Output of wc -l:
+8
+
+Test Run 94:
+Generated numbers: -182024 267651 209855 -264972 33830
+
+Output of wc -l:
+9
+
+Test Run 95:
+Generated numbers: -226905 -257957 -147784 24633 -211618
+
+Output of wc -l:
+7
+
+Test Run 96:
+Generated numbers: 363621 -392166 -125921 -119487 -183473
+
+Output of wc -l:
+8
+
+Test Run 97:
+Generated numbers: 289220 -379971 -222003 356773 -62650
+
+Output of wc -l:
+6
+
+Test Run 98:
+Generated numbers: -64695 357646 78040 221700 -227800
+
+Output of wc -l:
+6
+
+Test Run 99:
+Generated numbers: -152894 -71768 -235285 261630 -58511
+
+Output of wc -l:
+10
+
+Test Run 100:
+Generated numbers: 157501 -115982 235692 231757 -16334
+
+Output of wc -l:
+9
+
+Average Line Count: 7.43
+##################################################
+Test Runs (5 numbers, range -2147483648-2147483647)
+##################################################
+Test Run 1:
+Generated numbers: 1302235330 -1578512234 251973337 -1943865067 35882564
+
+Output of wc -l:
+9
+
+Test Run 2:
+Generated numbers: 298770829 1608941540 451444632 1819588058 -986976527
+
+Output of wc -l:
+6
+
+Test Run 3:
+Generated numbers: -2072354751 -1554748967 85486744 1991582473 1883811480
+
+Output of wc -l:
+6
+
+Test Run 4:
+Generated numbers: 1934761297 -2011021025 -1367105419 -548151185 -1314408040
+
+Output of wc -l:
+6
+
+Test Run 5:
+Generated numbers: -868768532 -2087120183 -592974806 -1856028695 -938617305
+
+Output of wc -l:
+8
+
+Test Run 6:
+Generated numbers: -598950007 264322296 -166145323 1584823209 1739750496
+
+Output of wc -l:
+6
+
+Test Run 7:
+Generated numbers: -1549171779 1473770389 -1525752628 668732193 1666500193
+
+Output of wc -l:
+7
+
+Test Run 8:
+Generated numbers: 1441413479 157886285 548885608 -2101982137 751481273
+
+Output of wc -l:
+5
+
+Test Run 9:
+Generated numbers: 866586739 -771893295 -1716385165 550224314 -1703156672
+
+Output of wc -l:
+8
+
+Test Run 10:
+Generated numbers: 124946995 1647229257 -127990298 725369951 -548194651
+
+Output of wc -l:
+8
+
+Test Run 11:
+Generated numbers: 1649284572 97081825 693791239 407579317 1776203507
+
+Output of wc -l:
+8
+
+Test Run 12:
+Generated numbers: -805771497 -1402513040 1393853109 -1513641039 978338274
+
+Output of wc -l:
+10
+
+Test Run 13:
+Generated numbers: -661936754 1703224856 -614603302 1332612607 992035698
+
+Output of wc -l:
+6
+
+Test Run 14:
+Generated numbers: 1225677250 -1058351684 1770774158 937390126 33426408
+
+Output of wc -l:
+8
+
+Test Run 15:
+Generated numbers: -1819524360 -1595661618 -795591862 -1283487114 1685549207
+
+Output of wc -l:
+5
+
+Test Run 16:
+Generated numbers: -966604182 524088075 -34502552 -1060442657 385360782
+
+Output of wc -l:
+8
+
+Test Run 17:
+Generated numbers: -1776222556 -893876820 -1677171910 91706636 -647181890
+
+Output of wc -l:
+7
+
+Test Run 18:
+Generated numbers: 2136802073 -1429642171 -262965392 -4997629 -1685574041
+
+Output of wc -l:
+8
+
+Test Run 19:
+Generated numbers: -234683768 81828859 -555612708 -1404436302 -1138755254
+
+Output of wc -l:
+7
+
+Test Run 20:
+Generated numbers: 644075420 -1244712319 -1278253683 -1124547853 -217751766
+
+Output of wc -l:
+9
+
+Test Run 21:
+Generated numbers: -1670739270 988799748 -89340176 1846369810 -155887612
+
+Output of wc -l:
+6
+
+Test Run 22:
+Generated numbers: 168876457 1513039210 432045575 -396909769 1079449141
+
+Output of wc -l:
+8
+
+Test Run 23:
+Generated numbers: 1425247055 1355556514 -602489836 -664568441 -1605677635
+
+Output of wc -l:
+8
+
+Test Run 24:
+Generated numbers: 1350703543 852405009 -2112596436 -2071452887 1155268207
+
+Output of wc -l:
+7
+
+Test Run 25:
+Generated numbers: -1712924872 -2023981337 1826978033 -1653394622 -1293807885
+
+Output of wc -l:
+7
+
+Test Run 26:
+Generated numbers: -1404054945 -753689448 1063891747 -1668883849 -826171912
+
+Output of wc -l:
+8
+
+Test Run 27:
+Generated numbers: 1130112545 766806508 -1815958602 916681254 258720986
+
+Output of wc -l:
+8
+
+Test Run 28:
+Generated numbers: -800661976 -792862755 1952169519 -1711875944 -1859744283
+
+Output of wc -l:
+8
+
+Test Run 29:
+Generated numbers: -1171497476 732082693 1383997190 -591151511 -365198153
+
+Output of wc -l:
+8
+
+Test Run 30:
+Generated numbers: -1701557313 -870734322 1394324604 57598942 -1655998607
+
+Output of wc -l:
+7
+
+Test Run 31:
+Generated numbers: -459325449 -1743473605 1586716565 744676120 340829121
+
+Output of wc -l:
+8
+
+Test Run 32:
+Generated numbers: 1665635184 -1982396250 1093099873 -1802181635 -1180199078
+
+Output of wc -l:
+8
+
+Test Run 33:
+Generated numbers: -654215476 -1963316850 292026308 -1842880107 -377957733
+
+Output of wc -l:
+7
+
+Test Run 34:
+Generated numbers: -1992083509 115204193 1608432059 836809499 -352482369
+
+Output of wc -l:
+7
+
+Test Run 35:
+Generated numbers: 200369489 2140452689 -1568627730 918855007 -2004211811
+
+Output of wc -l:
+8
+
+Test Run 36:
+Generated numbers: 2059270430 1988649203 -1908518023 -1783241128 -1337040192
+
+Output of wc -l:
+8
+
+Test Run 37:
+Generated numbers: 243287177 -104622343 -447562802 549655468 2016027015
+
+Output of wc -l:
+8
+
+Test Run 38:
+Generated numbers: -492733730 -1855154419 90202574 372069856 -304214078
+
+Output of wc -l:
+7
+
+Test Run 39:
+Generated numbers: 1475152848 -695354175 261428266 -523265185 -152613056
+
+Output of wc -l:
+8
+
+Test Run 40:
+Generated numbers: 438916079 -1654431571 -1462064438 167537408 1736879987
+
+Output of wc -l:
+7
+
+Test Run 41:
+Generated numbers: -951352300 -177964829 1155151983 -544449253 -463002047
+
+Output of wc -l:
+8
+
+Test Run 42:
+Generated numbers: -8386169 -1567849274 -1035007050 1691987109 -1513772123
+
+Output of wc -l:
+8
+
+Test Run 43:
+Generated numbers: -296328259 1067801853 1882306015 -68488183 -931424216
+
+Output of wc -l:
+6
+
+Test Run 44:
+Generated numbers: -2064197672 188375579 1868647234 -1777265786 -1699831533
+
+Output of wc -l:
+8
+
+Test Run 45:
+Generated numbers: -934503046 -571097430 1318160351 -1966593754 957651036
+
+Output of wc -l:
+9
+
+Test Run 46:
+Generated numbers: 1297053182 272867186 -988276162 -1346825817 1982759123
+
+Output of wc -l:
+9
+
+Test Run 47:
+Generated numbers: -442448674 518265406 -1492005746 1719609009 81555270
+
+Output of wc -l:
+9
+
+Test Run 48:
+Generated numbers: 944000690 1163692839 1811414603 519158308 1520514517
+
+Output of wc -l:
+9
+
+Test Run 49:
+Generated numbers: 1103616660 547583203 544264373 -1160325025 -1131253865
+
+Output of wc -l:
+8
+
+Test Run 50:
+Generated numbers: 549582257 -754128118 -100218545 103946964 1250491167
+
+Output of wc -l:
+7
+
+Test Run 51:
+Generated numbers: 717345430 -542348048 992190765 493148633 818591165
+
+Output of wc -l:
+7
+
+Test Run 52:
+Generated numbers: -300866688 1895663610 -641230575 -1443445881 -1740436794
+
+Output of wc -l:
+7
+
+Test Run 53:
+Generated numbers: 939347218 -751927158 371206310 1461938222 -1516700148
+
+Output of wc -l:
+8
+
+Test Run 54:
+Generated numbers: 740278280 -1152395185 564686934 1408561618 -914730140
+
+Output of wc -l:
+8
+
+Test Run 55:
+Generated numbers: 871712594 -586147683 220098211 -1015857955 1093818701
+
+Output of wc -l:
+10
+
+Test Run 56:
+Generated numbers: -449845737 -160492065 621361377 684670603 344834404
+
+Output of wc -l:
+5
+
+Test Run 57:
+Generated numbers: 158955995 1280026000 855069322 2121840018 -1560796577
+
+Output of wc -l:
+6
+
+Test Run 58:
+Generated numbers: 839970985 -316187094 849641735 1024362758 142576935
+
+Output of wc -l:
+4
+
+Test Run 59:
+Generated numbers: -1299161594 -1375610466 1143177771 2110468232 -786656309
+
+Output of wc -l:
+7
+
+Test Run 60:
+Generated numbers: -1512749815 -563808825 1281753689 -1216985471 -474560846
+
+Output of wc -l:
+7
+
+Test Run 61:
+Generated numbers: -777624199 182909758 -567450488 444400488 -1261294236
+
+Output of wc -l:
+6
+
+Test Run 62:
+Generated numbers: -1527274533 -309950895 1572302101 -269544251 1866591516
+
+Output of wc -l:
+5
+
+Test Run 63:
+Generated numbers: -1663695699 80589532 -39295599 947586999 -484100017
+
+Output of wc -l:
+6
+
+Test Run 64:
+Generated numbers: 1590258019 1974567882 -311443537 410411369 -1712545842
+
+Output of wc -l:
+9
+
+Test Run 65:
+Generated numbers: 1261855058 -1253266264 -2106298058 753296779 -470669523
+
+Output of wc -l:
+8
+
+Test Run 66:
+Generated numbers: -799686368 -1261078488 642205616 -440911234 1263533634
+
+Output of wc -l:
+7
+
+Test Run 67:
+Generated numbers: -1754548227 1577250154 -602083248 2126433491 -240199220
+
+Output of wc -l:
+6
+
+Test Run 68:
+Generated numbers: 1345742562 1323120152 -1920376959 925281574 -719981711
+
+Output of wc -l:
+9
+
+Test Run 69:
+Generated numbers: 1363189701 1909081702 -1774302629 -1099298235 950713100
+
+Output of wc -l:
+2
+
+Test Run 70:
+Generated numbers: -307067551 -1920614119 -1083362543 -653729473 -1676087213
+
+Output of wc -l:
+8
+
+Test Run 71:
+Generated numbers: -1820431722 -590183761 -922564842 486323269 -1414349942
+
+Output of wc -l:
+6
+
+Test Run 72:
+Generated numbers: -1003804086 -1402499010 708958490 1175166114 1096266027
+
+Output of wc -l:
+8
+
+Test Run 73:
+Generated numbers: 2015496718 766883 -177995117 -1215868074 -1655201923
+
+Output of wc -l:
+8
+
+Test Run 74:
+Generated numbers: -480350516 1068232224 -1298464867 -1369832822 1941404020
+
+Output of wc -l:
+8
+
+Test Run 75:
+Generated numbers: -83011655 -1812044673 2081456741 362041242 1433128026
+
+Output of wc -l:
+7
+
+Test Run 76:
+Generated numbers: -1923468801 -1837053941 -1044488008 530962539 2037894601
+
+Output of wc -l:
+0
+
+Test Run 77:
+Generated numbers: 805518060 -257560501 1865497708 -2100989652 -995774725
+
+Output of wc -l:
+7
+
+Test Run 78:
+Generated numbers: -2116128061 1630623298 -1072508138 -1337766053 -1785057674
+
+Output of wc -l:
+7
+
+Test Run 79:
+Generated numbers: 1131949664 241809879 1272952789 929883324 -895368968
+
+Output of wc -l:
+7
+
+Test Run 80:
+Generated numbers: 1596960977 1212504306 -824414438 -256529607 1975066363
+
+Output of wc -l:
+8
+
+Test Run 81:
+Generated numbers: 865102043 -848930637 -1214274729 -383672132 1432973740
+
+Output of wc -l:
+9
+
+Test Run 82:
+Generated numbers: -1454331523 -1120007319 -316082967 -1061620370 -1403413209
+
+Output of wc -l:
+7
+
+Test Run 83:
+Generated numbers: 274895247 984718862 -841749988 -1785609541 -785191283
+
+Output of wc -l:
+9
+
+Test Run 84:
+Generated numbers: -2015428156 342137428 -631046645 -1440628425 -1573373548
+
+Output of wc -l:
+7
+
+Test Run 85:
+Generated numbers: 782919294 399917670 148376814 331708361 -1535333861
+
+Output of wc -l:
+9
+
+Test Run 86:
+Generated numbers: 1571761707 -1057320682 2144980177 601691767 -1552418653
+
+Output of wc -l:
+7
+
+Test Run 87:
+Generated numbers: 322681716 -215656616 1054079248 1300884985 1744094530
+
+Output of wc -l:
+3
+
+Test Run 88:
+Generated numbers: -1748501314 -1653136427 1141613266 -374069073 1364799699
+
+Output of wc -l:
+5
+
+Test Run 89:
+Generated numbers: -415774605 880598275 -112822714 -292153556 -89062404
+
+Output of wc -l:
+7
+
+Test Run 90:
+Generated numbers: -1148710400 -1116923625 -244797577 -1177677455 534600939
+
+Output of wc -l:
+9
+
+Test Run 91:
+Generated numbers: 853129316 -1539180194 958585707 -1398690531 -2013916631
+
+Output of wc -l:
+7
+
+Test Run 92:
+Generated numbers: -45187376 -962907677 1586909198 1169816594 -1102320836
+
+Output of wc -l:
+8
+
+Test Run 93:
+Generated numbers: 1707665764 676391494 -1453748147 1798102017 -957805608
+
+Output of wc -l:
+8
+
+Test Run 94:
+Generated numbers: 77506180 1554232148 1599241559 -284567850 -864664434
+
+Output of wc -l:
+8
+
+Test Run 95:
+Generated numbers: 1675166168 -1557324749 1219180818 -659581191 844146770
+
+Output of wc -l:
+8
+
+Test Run 96:
+Generated numbers: -1959999777 -1439608493 1644408639 1397383608 -1573917682
+
+Output of wc -l:
+7
+
+Test Run 97:
+Generated numbers: -710578130 1388570903 511908122 601078064 851571413
+
+Output of wc -l:
+2
+
+Test Run 98:
+Generated numbers: -1753065651 1525335875 1066029379 -542510782 -1665941865
+
+Output of wc -l:
+7
+
+Test Run 99:
+Generated numbers: 1182593031 1075395657 916331312 799913805 1261619025
+
+Output of wc -l:
+9
+
+Test Run 100:
+Generated numbers: -1029843890 -1049424286 -163974541 -33286312 -617674577
+
+Output of wc -l:
+7
+
+Test Run 101:
+Generated numbers: 169592892 -2106200324 -478537949 26516317 -1298199011
+
+Output of wc -l:
+8
+
+Test Run 102:
+Generated numbers: -1487230830 1756343525 284097495 1364774842 1481905643
+
+Output of wc -l:
+2
+
+Test Run 103:
+Generated numbers: 1338061677 -195972623 1178891002 -1565664112 -1723195923
+
+Output of wc -l:
+7
+
+Test Run 104:
+Generated numbers: 258228877 -1248126589 832175384 863202071 110326268
+
+Output of wc -l:
+4
+
+Test Run 105:
+Generated numbers: -1110344011 323580234 -839028726 -1806698058 614861900
+
+Output of wc -l:
+8
+
+Test Run 106:
+Generated numbers: 12832518 128640215 -1622812210 578482050 1029697687
+
+Output of wc -l:
+5
+
+Test Run 107:
+Generated numbers: -894148837 1625006255 -1490571017 -435770542 956634610
+
+Output of wc -l:
+9
+
+Test Run 108:
+Generated numbers: -13527629 -417762051 351535014 97433636 1755089366
+
+Output of wc -l:
+7
+
+Test Run 109:
+Generated numbers: 1663238572 426486213 114795495 -620563462 -1573574767
+
+Output of wc -l:
+8
+
+Test Run 110:
+Generated numbers: -319748043 1383445814 -1949959792 916568543 406980105
+
+Output of wc -l:
+10
+
+Test Run 111:
+Generated numbers: -1782066677 201154412 -706566015 1742036576 -1390941086
+
+Output of wc -l:
+6
+
+Test Run 112:
+Generated numbers: 676773565 -293953056 1729794536 441420968 654807379
+
+Output of wc -l:
+3
+
+Test Run 113:
+Generated numbers: 1201135641 -895495001 557713820 -871180036 -1310020225
+
+Output of wc -l:
+7
+
+Test Run 114:
+Generated numbers: 1459441051 545519521 1164796138 575251060 -1450735149
+
+Output of wc -l:
+7
+
+Test Run 115:
+Generated numbers: -526348019 1093843017 -1075126019 2079876737 682288410
+
+Output of wc -l:
+9
+
+Test Run 116:
+Generated numbers: -396050404 -1953112425 -651762335 2115239444 -2010494180
+
+Output of wc -l:
+8
+
+Test Run 117:
+Generated numbers: 1669812394 1639232615 -551983216 2068108386 1152895394
+
+Output of wc -l:
+8
+
+Test Run 118:
+Generated numbers: -536494908 856059880 756686466 1784852551 1233309938
+
+Output of wc -l:
+7
+
+Test Run 119:
+Generated numbers: -1780414383 462912820 -754169991 841455326 2126240465
+
+Output of wc -l:
+6
+
+Test Run 120:
+Generated numbers: 119696702 -1551174278 -1469351872 1816432450 -1295495956
+
+Output of wc -l:
+6
+
+Test Run 121:
+Generated numbers: 1678756559 245628686 -636028928 -710185619 -161402590
+
+Output of wc -l:
+9
+
+Test Run 122:
+Generated numbers: 1297246576 -1025474476 1543895656 -765991246 -1355259784
+
+Output of wc -l:
+7
+
+Test Run 123:
+Generated numbers: -1198612211 -2033225986 -1484486638 -1537732350 1620540546
+
+Output of wc -l:
+8
+
+Test Run 124:
+Generated numbers: -251819864 -1272321069 20272847 913212438 -662124222
+
+Output of wc -l:
+9
+
+Test Run 125:
+Generated numbers: 1976752343 -1320979913 723842896 -1844430003 736698814
+
+Output of wc -l:
+10
+
+Test Run 126:
+Generated numbers: 1776787221 2133246585 -1328853619 886818335 352166273
+
+Output of wc -l:
+8
+
+Test Run 127:
+Generated numbers: 562243027 -1155943669 905471403 -1245147846 -1567254650
+
+Output of wc -l:
+7
+
+Test Run 128:
+Generated numbers: -1401180949 65659719 -320354065 1026747557 -529925996
+
+Output of wc -l:
+6
+
+Test Run 129:
+Generated numbers: -636691891 1501938775 -1252154987 1918179034 -427232522
+
+Output of wc -l:
+9
+
+Test Run 130:
+Generated numbers: 40497268 1847501233 1449487055 -401464159 1356607368
+
+Output of wc -l:
+9
+
+Test Run 131:
+Generated numbers: -349830017 113850195 -23077191 663339184 -390124726
+
+Output of wc -l:
+6
+
+Test Run 132:
+Generated numbers: 1546269253 659412376 -245647094 1778516798 1896913256
+
+Output of wc -l:
+8
+
+Test Run 133:
+Generated numbers: 1773335859 1163073539 419327063 -1277958725 -1309051428
+
+Output of wc -l:
+8
+
+Test Run 134:
+Generated numbers: 99560321 -377580449 747769059 2002683860 1543956239
+
+Output of wc -l:
+8
+
+Test Run 135:
+Generated numbers: 922787988 743959692 1511831002 -1598624483 -203763956
+
+Output of wc -l:
+7
+
+Test Run 136:
+Generated numbers: -1863464084 -2050970506 860571103 726200029 408865341
+
+Output of wc -l:
+8
+
+Test Run 137:
+Generated numbers: 1784270461 -200325870 484771051 972336419 1039595711
+
+Output of wc -l:
+1
+
+Test Run 138:
+Generated numbers: 1438863565 -585916711 -978552285 1104116200 -1152879995
+
+Output of wc -l:
+8
+
+Test Run 139:
+Generated numbers: -540205615 -2080611717 2028861589 -1283056385 189642335
+
+Output of wc -l:
+7
+
+Test Run 140:
+Generated numbers: 1342433268 -1378418326 1076623429 615622393 -1414312109
+
+Output of wc -l:
+7
+
+Test Run 141:
+Generated numbers: -850314697 1036676243 -72256156 -1545558576 -1834342418
+
+Output of wc -l:
+8
+
+Test Run 142:
+Generated numbers: 362092480 705907546 -1474599101 1886297927 2078161968
+
+Output of wc -l:
+5
+
+Test Run 143:
+Generated numbers: -602910199 -1775027222 -1636315289 1436953174 854687210
+
+Output of wc -l:
+7
+
+Test Run 144:
+Generated numbers: 1456683705 1117088453 -470348030 -66651892 684463410
+
+Output of wc -l:
+8
+
+Test Run 145:
+Generated numbers: -440481899 -1239132873 -42936763 31100421 -279175908
+
+Output of wc -l:
+7
+
+Test Run 146:
+Generated numbers: 550468992 -1775516734 -2079754805 102979222 -624550327
+
+Output of wc -l:
+8
+
+Test Run 147:
+Generated numbers: 762168036 -1285995793 1775741124 1224247251 1058891435
+
+Output of wc -l:
+8
+
+Test Run 148:
+Generated numbers: -11327242 19264808 1571490733 -579004532 -1285954821
+
+Output of wc -l:
+8
+
+Test Run 149:
+Generated numbers: 1709376232 -1734148549 -20054686 -844236136 -1556320681
+
+Output of wc -l:
+9
+
+Test Run 150:
+Generated numbers: -1632804759 929117304 -1942531975 -1131233516 1672614409
+
+Output of wc -l:
+9
+
+Test Run 151:
+Generated numbers: -1878835049 2145805726 -920594382 185713766 464443175
+
+Output of wc -l:
+7
+
+Test Run 152:
+Generated numbers: -1231584565 1609609622 -1168593000 -1673677516 -830735162
+
+Output of wc -l:
+8
+
+Test Run 153:
+Generated numbers: -1441509274 45040773 1459790222 -1948720108 -249092067
+
+Output of wc -l:
+8
+
+Test Run 154:
+Generated numbers: -330909624 -300591618 -353186962 -1208287464 41218183
+
+Output of wc -l:
+8
+
+Test Run 155:
+Generated numbers: -2042614265 454107738 196990150 198048371 -1256530192
+
+Output of wc -l:
+6
+
+Test Run 156:
+Generated numbers: 781970472 -461586632 756089041 -1786841636 1954548098
+
+Output of wc -l:
+10
+
+Test Run 157:
+Generated numbers: -192945212 2056149905 2040799337 20860390 -636190681
+
+Output of wc -l:
+7
+
+Test Run 158:
+Generated numbers: -2033012011 1231886416 -868288 1705940772 253706002
+
+Output of wc -l:
+6
+
+Test Run 159:
+Generated numbers: -305961485 1426558874 -1134436377 -2077178844 1354324780
+
+Output of wc -l:
+8
+
+Test Run 160:
+Generated numbers: 2056951381 1139205134 -64793683 -281933860 -437441960
+
+Output of wc -l:
+8
+
+Test Run 161:
+Generated numbers: -100800194 2144924007 -142262787 -1164381665 1731358244
+
+Output of wc -l:
+8
+
+Test Run 162:
+Generated numbers: -684767442 1097975135 -526836380 1241901190 148076440
+
+Output of wc -l:
+6
+
+Test Run 163:
+Generated numbers: -802233981 -25260628 1675437928 1298147974 882879092
+
+Output of wc -l:
+6
+
+Test Run 164:
+Generated numbers: 824117308 1592688866 218524965 729961762 -106237888
+
+Output of wc -l:
+4
+
+Test Run 165:
+Generated numbers: -1284572273 -1714180729 1885400260 339486738 1412338168
+
+Output of wc -l:
+7
+
+Test Run 166:
+Generated numbers: -1657096021 -393130179 1865928785 -759025848 -1823908437
+
+Output of wc -l:
+6
+
+Test Run 167:
+Generated numbers: 724508480 2097801132 -617086145 -355103550 -483463110
+
+Output of wc -l:
+8
+
+Test Run 168:
+Generated numbers: -1429860117 225758015 902400772 1281836914 -465069270
+
+Output of wc -l:
+7
+
+Test Run 169:
+Generated numbers: 1249373423 -1284647765 170375813 1314455978 -1098502080
+
+Output of wc -l:
+8
+
+Test Run 170:
+Generated numbers: 1604617940 2008602225 -986664502 -977771225 -1590348044
+
+Output of wc -l:
+9
+
+Test Run 171:
+Generated numbers: -910291453 1005506837 1773446231 -1787674898 -1214080488
+
+Output of wc -l:
+2
+
+Test Run 172:
+Generated numbers: 515015367 -1571848086 13821731 1538983568 1540931195
+
+Output of wc -l:
+6
+
+Test Run 173:
+Generated numbers: -1387276499 309273521 1075336822 -442656684 -290080182
+
+Output of wc -l:
+8
+
+Test Run 174:
+Generated numbers: 495564899 -1971260391 266069868 1895607519 1645761427
+
+Output of wc -l:
+7
+
+Test Run 175:
+Generated numbers: 974895344 1382234221 667584430 -822697697 1388560
+
+Output of wc -l:
+7
+
+Test Run 176:
+Generated numbers: 1595370784 -2009487704 -145302794 1220386641 531971134
+
+Output of wc -l:
+6
+
+Test Run 177:
+Generated numbers: -1909450086 1971576924 -337361434 952613275 1430432464
+
+Output of wc -l:
+7
+
+Test Run 178:
+Generated numbers: -200930531 -2068283920 1683901060 1593608397 -750487920
+
+Output of wc -l:
+9
+
+Test Run 179:
+Generated numbers: 722511442 594730381 665546136 -354363870 -1968126277
+
+Output of wc -l:
+7
+
+Test Run 180:
+Generated numbers: 26754632 1100663854 1602610542 197532786 351161282
+
+Output of wc -l:
+3
+
+Test Run 181:
+Generated numbers: -1350140721 -312802354 -992326155 -856682687 1535379011
+
+Output of wc -l:
+7
+
+Test Run 182:
+Generated numbers: 2078880956 88561593 2050854299 -264184422 591544459
+
+Output of wc -l:
+9
+
+Test Run 183:
+Generated numbers: 86129166 -1154712987 1071174476 148159682 2100399233
+
+Output of wc -l:
+7
+
+Test Run 184:
+Generated numbers: -161226970 542248863 1275322027 -2126672903 -1847890912
+
+Output of wc -l:
+2
+
+Test Run 185:
+Generated numbers: 1837914812 -2077490606 -1402609830 826971557 2124895919
+
+Output of wc -l:
+7
+
+Test Run 186:
+Generated numbers: 222608017 1418775361 -729998598 -2069981100 96330097
+
+Output of wc -l:
+9
+
+Test Run 187:
+Generated numbers: 415701601 -1673128372 1535383199 -1989722924 -1573475067
+
+Output of wc -l:
+9
+
+Test Run 188:
+Generated numbers: -609514931 -2006688394 -283779662 -445260371 927501523
+
+Output of wc -l:
+7
+
+Test Run 189:
+Generated numbers: 560212504 1590299357 1003990927 264961465 872069610
+
+Output of wc -l:
+9
+
+Test Run 190:
+Generated numbers: -1452525020 1954736487 -343846187 -1817971421 78457797
+
+Output of wc -l:
+8
+
+Test Run 191:
+Generated numbers: 322937267 933921768 -181980819 1493575878 369955575
+
+Output of wc -l:
+9
+
+Test Run 192:
+Generated numbers: 1328934080 1372729045 1951613874 232512535 -730059674
+
+Output of wc -l:
+3
+
+Test Run 193:
+Generated numbers: 1642260071 -2130883469 -1939570104 336885638 864761308
+
+Output of wc -l:
+1
+
+Test Run 194:
+Generated numbers: -763863232 -168736018 664748926 513315156 -1522169974
+
+Output of wc -l:
+7
+
+Test Run 195:
+Generated numbers: 2115141387 1181873315 878481769 1614610088 -1422291
+
+Output of wc -l:
+8
+
+Test Run 196:
+Generated numbers: -1699683199 394752572 146483622 -888802420 886463855
+
+Output of wc -l:
+8
+
+Test Run 197:
+Generated numbers: 1101989907 158944377 1005851789 -1658944633 71813527
+
+Output of wc -l:
+7
+
+Test Run 198:
+Generated numbers: -1981620149 -974052951 -1121332141 190695328 516253078
+
+Output of wc -l:
+6
+
+Test Run 199:
+Generated numbers: -1685415425 -1913965283 -1172096139 958730059 1023801991
+
+Output of wc -l:
+8
+
+Test Run 200:
+Generated numbers: 736482224 -140680416 -1658951341 -437361611 131082084
+
+Output of wc -l:
+7
+
+Test Run 201:
+Generated numbers: 934340911 -1163563168 1041831377 -107039034 -793558180
+
+Output of wc -l:
+8
+
+Test Run 202:
+Generated numbers: -1199624135 1278776691 -824196082 -2091691858 1011935042
+
+Output of wc -l:
+8
+
+Test Run 203:
+Generated numbers: 408940386 -766122473 287702825 -1024528627 1453579993
+
+Output of wc -l:
+10
+
+Test Run 204:
+Generated numbers: 273273425 -1023141770 -1410021509 -887930598 -817066955
+
+Output of wc -l:
+9
+
+Test Run 205:
+Generated numbers: 997687185 -1796532146 -728625624 -1020723095 -1485334240
+
+Output of wc -l:
+9
+
+Test Run 206:
+Generated numbers: 343419959 -1859432291 846110836 -2145990886 -1942082186
+
+Output of wc -l:
+7
+
+Test Run 207:
+Generated numbers: -844732262 1491968980 -2088671709 -1467320026 -1239358566
+
+Output of wc -l:
+2
+
+Test Run 208:
+Generated numbers: 942102040 -1881237709 -1656039559 -1926048710 -596672436
+
+Output of wc -l:
+10
+
+Test Run 209:
+Generated numbers: -1390210989 392381889 -1479514373 633316834 1127069921
+
+Output of wc -l:
+10
+
+Test Run 210:
+Generated numbers: 1240064049 897984328 1880668684 -343844004 -482309325
+
+Output of wc -l:
+7
+
+Test Run 211:
+Generated numbers: 809111640 -870446444 1499474114 -424900252 -882898824
+
+Output of wc -l:
+7
+
+Test Run 212:
+Generated numbers: -512940022 906450979 2114511568 1454943271 773139587
+
+Output of wc -l:
+7
+
+Test Run 213:
+Generated numbers: 1411745419 747113896 -1008022504 -666521734 317737113
+
+Output of wc -l:
+8
+
+Test Run 214:
+Generated numbers: 1694377876 2144131546 -302921764 -1585576233 674268122
+
+Output of wc -l:
+9
+
+Test Run 215:
+Generated numbers: -1193304329 -60087223 1810809998 904701068 1053537334
+
+Output of wc -l:
+5
+
+Test Run 216:
+Generated numbers: -102929710 -1111328596 1386210630 -526654072 -1633839092
+
+Output of wc -l:
+7
+
+Test Run 217:
+Generated numbers: -57262191 -1075876187 -491546769 -1660587965 1782922832
+
+Output of wc -l:
+10
+
+Test Run 218:
+Generated numbers: -1854168214 -217022105 336347512 455778194 -1536336211
+
+Output of wc -l:
+7
+
+Test Run 219:
+Generated numbers: -189157970 -1151789224 838909142 -1538941560 -1140782998
+
+Output of wc -l:
+9
+
+Test Run 220:
+Generated numbers: -249229479 -1066519138 517891318 -802116865 -1532060953
+
+Output of wc -l:
+7
+
+Test Run 221:
+Generated numbers: -1406457028 1645280760 522882854 1715827861 8644165
+
+Output of wc -l:
+6
+
+Test Run 222:
+Generated numbers: 7366139 1857644703 856538322 768697316 -1804491880
+
+Output of wc -l:
+7
+
+Test Run 223:
+Generated numbers: -885581448 503692650 309002169 1109605948 -104604414
+
+Output of wc -l:
+6
+
+Test Run 224:
+Generated numbers: -1530522409 -1513461964 -188802804 447164941 -1316961429
+
+Output of wc -l:
+5
+
+Test Run 225:
+Generated numbers: -659278817 688521374 160287932 -32657774 -1866462456
+
+Output of wc -l:
+7
+
+Test Run 226:
+Generated numbers: -1198637180 -843396659 -1187894401 -780185278 -1369771514
+
+Output of wc -l:
+6
+
+Test Run 227:
+Generated numbers: 1233534849 -523859512 -260246189 -605557120 798123608
+
+Output of wc -l:
+10
+
+Test Run 228:
+Generated numbers: 1175386787 -1630949804 -315463394 1910273387 -598212124
+
+Output of wc -l:
+8
+
+Test Run 229:
+Generated numbers: 1148958942 -1433507985 -1626735443 -1826403465 -1269865753
+
+Output of wc -l:
+8
+
+Test Run 230:
+Generated numbers: 384684807 345531932 -1181464381 1123447050 311396746
+
+Output of wc -l:
+8
+
+Test Run 231:
+Generated numbers: -626282423 469024923 948586418 198524681 -734315854
+
+Output of wc -l:
+6
+
+Test Run 232:
+Generated numbers: -210194554 -1910434249 -2058448208 -1171293966 -1197316497
+
+Output of wc -l:
+8
+
+Test Run 233:
+Generated numbers: 504733901 -102450410 723224658 -449857820 -502779548
+
+Output of wc -l:
+7
+
+Test Run 234:
+Generated numbers: -2075230225 -747912587 349006223 -303494698 265201341
+
+Output of wc -l:
+5
+
+Test Run 235:
+Generated numbers: 148479579 -2075726133 -820770383 -1370959538 2009980899
+
+Output of wc -l:
+8
+
+Test Run 236:
+Generated numbers: -1378135123 2014245845 780525147 1800194249 1094165513
+
+Output of wc -l:
+6
+
+Test Run 237:
+Generated numbers: -1042921708 -1388760205 -921845842 1601517964 -1924934739
+
+Output of wc -l:
+7
+
+Test Run 238:
+Generated numbers: 1853200481 215750460 1757680460 1770822936 -1272564387
+
+Output of wc -l:
+3
+
+Test Run 239:
+Generated numbers: 302082030 -478542052 -1025612558 1507760938 -218475431
+
+Output of wc -l:
+8
+
+Test Run 240:
+Generated numbers: 298250163 1440269074 -1967068994 72763659 -517954224
+
+Output of wc -l:
+8
+
+Test Run 241:
+Generated numbers: 1324086769 461679665 -266023284 -152305349 -801424743
+
+Output of wc -l:
+9
+
+Test Run 242:
+Generated numbers: 843082693 22461477 1121609406 -709586435 -350093472
+
+Output of wc -l:
+7
+
+Test Run 243:
+Generated numbers: -310736776 1469663186 231592319 -1959982924 1833811704
+
+Output of wc -l:
+8
+
+Test Run 244:
+Generated numbers: 1749177595 1983558955 -9927408 1970188542 293121870
+
+Output of wc -l:
+9
+
+Test Run 245:
+Generated numbers: 375532995 1324633148 424294366 -679675429 -1166912499
+
+Output of wc -l:
+8
+
+Test Run 246:
+Generated numbers: 447786619 -350978329 -2134328886 -1473868686 -785467804
+
+Output of wc -l:
+8
+
+Test Run 247:
+Generated numbers: -1193064164 -820780027 1457252413 1987609010 1534491154
+
+Output of wc -l:
+6
+
+Test Run 248:
+Generated numbers: -471955076 -606755059 -374124890 -1804118886 -14268182
+
+Output of wc -l:
+9
+
+Test Run 249:
+Generated numbers: -960227675 -1319513654 777374952 2094551482 -353175715
+
+Output of wc -l:
+7
+
+Test Run 250:
+Generated numbers: 2039587280 -34111210 -1980025 1358837007 177729901
+
+Output of wc -l:
+6
+
+Test Run 251:
+Generated numbers: 466826734 -855814916 657508400 -1878578001 -899149399
+
+Output of wc -l:
+7
+
+Test Run 252:
+Generated numbers: -1712515878 -159872535 778202716 2046927504 -1535376073
+
+Output of wc -l:
+7
+
+Test Run 253:
+Generated numbers: 607232221 1044080328 -643219067 1604544090 -796745436
+
+Output of wc -l:
+8
+
+Test Run 254:
+Generated numbers: -1119973075 -614815379 489830145 725763267 -1103024621
+
+Output of wc -l:
+7
+
+Test Run 255:
+Generated numbers: -1606162485 2018904197 -833739287 1088497788 -1615937026
+
+Output of wc -l:
+6
+
+Test Run 256:
+Generated numbers: 344062745 -1836686187 1825724578 -1333304708 -645466876
+
+Output of wc -l:
+8
+
+Test Run 257:
+Generated numbers: -2115198060 1252068208 -1010076322 969949002 -1884352476
+
+Output of wc -l:
+6
+
+Test Run 258:
+Generated numbers: 685920210 -1192472452 -1534754854 910143211 844431673
+
+Output of wc -l:
+9
+
+Test Run 259:
+Generated numbers: -1797861785 1968047569 -1367250895 -976049836 -1419991042
+
+Output of wc -l:
+6
+
+Test Run 260:
+Generated numbers: -763285346 558265695 3906194 124910475 1638458152
+
+Output of wc -l:
+7
+
+Test Run 261:
+Generated numbers: -1639081508 -1542167979 333339723 -1809871538 454467837
+
+Output of wc -l:
+9
+
+Test Run 262:
+Generated numbers: 1393405386 -1531644027 422023225 -1218800304 476887364
+
+Output of wc -l:
+7
+
+Test Run 263:
+Generated numbers: 1758431192 -1286600732 360315660 -1211995715 -1005432616
+
+Output of wc -l:
+8
+
+Test Run 264:
+Generated numbers: -2095456450 -12089935 -1551283866 -2028728601 -145786437
+
+Output of wc -l:
+7
+
+Test Run 265:
+Generated numbers: 21544634 -677395897 854760575 643676713 -630481180
+
+Output of wc -l:
+9
+
+Test Run 266:
+Generated numbers: 900976699 -940655932 1554465684 -2005394387 974668746
+
+Output of wc -l:
+10
+
+Test Run 267:
+Generated numbers: -570757969 -601568890 -1250276816 -884066716 -2063881080
+
+Output of wc -l:
+9
+
+Test Run 268:
+Generated numbers: -716624536 320224781 -1007518849 515749336 1332751869
+
+Output of wc -l:
+10
+
+Test Run 269:
+Generated numbers: -1381478866 1796500200 -629466640 1564578877 -888974204
+
+Output of wc -l:
+6
+
+Test Run 270:
+Generated numbers: -1899100491 -1597836785 1396664278 1360362632 -881950695
+
+Output of wc -l:
+6
+
+Test Run 271:
+Generated numbers: 85822986 289712359 -1936839370 1266598336 1378240344
+
+Output of wc -l:
+5
+
+Test Run 272:
+Generated numbers: 225646287 -1285548024 -409458145 -1564835710 159777612
+
+Output of wc -l:
+10
+
+Test Run 273:
+Generated numbers: -443917675 23111014 1833788360 -107621874 192200574
+
+Output of wc -l:
+7
+
+Test Run 274:
+Generated numbers: -1198961408 1605023263 -947788240 817816111 321733430
+
+Output of wc -l:
+6
+
+Test Run 275:
+Generated numbers: 1512608220 -1890774982 -186393963 -2143483781 1184274239
+
+Output of wc -l:
+10
+
+Test Run 276:
+Generated numbers: 268593419 -1187892991 -2085854232 -932244586 -1928183173
+
+Output of wc -l:
+8
+
+Test Run 277:
+Generated numbers: -113691371 819808325 1221495683 1246708284 -1331207662
+
+Output of wc -l:
+1
+
+Test Run 278:
+Generated numbers: 1402009567 -51326702 338184215 912775235 -2042807095
+
+Output of wc -l:
+8
+
+Test Run 279:
+Generated numbers: -1675216291 -2085041113 1176687199 -1420311524 -596072157
+
+Output of wc -l:
+7
+
+Test Run 280:
+Generated numbers: -1770620524 598998801 -68661906 1463659746 -1083687595
+
+Output of wc -l:
+6
+
+Test Run 281:
+Generated numbers: 747010751 1880348453 -2029044317 1114148501 -79586728
+
+Output of wc -l:
+9
+
+Test Run 282:
+Generated numbers: 758855842 2012187261 -787065272 1740385724 -1319827259
+
+Output of wc -l:
+8
+
+Test Run 283:
+Generated numbers: 60297706 911510217 1951880296 -2003418300 -369444748
+
+Output of wc -l:
+2
+
+Test Run 284:
+Generated numbers: -787479725 -745871582 942630763 -996880112 -2084840525
+
+Output of wc -l:
+8
+
+Test Run 285:
+Generated numbers: 198750406 -53343622 -1730849183 -229505982 -2037373658
+
+Output of wc -l:
+9
+
+Test Run 286:
+Generated numbers: 395047105 1333671892 1660956533 2131281448 -1042571439
+
+Output of wc -l:
+1
+
+Test Run 287:
+Generated numbers: -763975964 1340437718 -399249331 338384323 2015999241
+
+Output of wc -l:
+7
+
+Test Run 288:
+Generated numbers: -8325955 1786597796 -1537792532 -1362020397 1863261914
+
+Output of wc -l:
+7
+
+Test Run 289:
+Generated numbers: 713717619 -1932868419 -1844947524 1730443868 975218904
+
+Output of wc -l:
+7
+
+Test Run 290:
+Generated numbers: -1388090980 -1847644553 1670200098 527305947 -815841493
+
+Output of wc -l:
+8
+
+Test Run 291:
+Generated numbers: 585256610 -1586480045 -266194558 -451777761 -90348841
+
+Output of wc -l:
+7
+
+Test Run 292:
+Generated numbers: -1385368777 736408755 -2117973119 153471436 -342519648
+
+Output of wc -l:
+10
+
+Test Run 293:
+Generated numbers: -877016329 -206984222 398110637 1706319667 590469467
+
+Output of wc -l:
+6
+
+Test Run 294:
+Generated numbers: 1583797348 -1466465469 -152789135 -1926331962 2146014312
+
+Output of wc -l:
+10
+
+Test Run 295:
+Generated numbers: -2006254893 421495096 2137042430 212044352 851004682
+
+Output of wc -l:
+7
+
+Test Run 296:
+Generated numbers: 1366565576 -1009532544 1185195880 1938571051 1485139647
+
+Output of wc -l:
+7
+
+Test Run 297:
+Generated numbers: 611496273 -659578017 -169793452 -2003854059 -372062991
+
+Output of wc -l:
+9
+
+Test Run 298:
+Generated numbers: -1864468963 -734006945 890071450 974601002 -1931715588
+
+Output of wc -l:
+1
+
+Test Run 299:
+Generated numbers: 1086989651 -1977318358 15870435 365147681 -1451664744
+
+Output of wc -l:
+8
+
+Test Run 300:
+Generated numbers: -402418447 -1431840479 -1467513702 -527288914 -1856008787
+
+Output of wc -l:
+8
+
+Test Run 301:
+Generated numbers: -1200088717 -1110655885 -557118226 257989209 -290461127
+
+Output of wc -l:
+6
+
+Test Run 302:
+Generated numbers: -447753870 -955878358 -1557225944 -1001100614 1239793308
+
+Output of wc -l:
+8
+
+Test Run 303:
+Generated numbers: 903980522 37148243 -1836278484 -318277100 -864144805
+
+Output of wc -l:
+9
+
+Test Run 304:
+Generated numbers: 374768715 1803449009 -896554580 -366137259 1303806968
+
+Output of wc -l:
+7
+
+Test Run 305:
+Generated numbers: 788199485 -491637582 -152166177 -1686828177 870794036
+
+Output of wc -l:
+10
+
+Test Run 306:
+Generated numbers: 141201807 -1000210072 -1535937505 480022865 1650606163
+
+Output of wc -l:
+8
+
+Test Run 307:
+Generated numbers: -25909087 -1315558821 1294512816 241967991 1228649354
+
+Output of wc -l:
+7
+
+Test Run 308:
+Generated numbers: -811276244 -1781171356 -232641810 1224967436 137165395
+
+Output of wc -l:
+8
+
+Test Run 309:
+Generated numbers: 1971335514 1994385859 337686092 -721612106 -1699280867
+
+Output of wc -l:
+7
+
+Test Run 310:
+Generated numbers: -101729203 408171382 -1801705470 266087371 1010638481
+
+Output of wc -l:
+9
+
+Test Run 311:
+Generated numbers: 1892286462 -397813252 862210557 -211651944 -868458634
+
+Output of wc -l:
+7
+
+Test Run 312:
+Generated numbers: -136165895 -1182791772 985363643 497047342 -915662694
+
+Output of wc -l:
+9
+
+Test Run 313:
+Generated numbers: 584376721 -698487256 1968214568 -165418879 -893417683
+
+Output of wc -l:
+7
+
+Test Run 314:
+Generated numbers: 1898071708 1835986157 -1095390198 -350715039 1562324181
+
+Output of wc -l:
+8
+
+Test Run 315:
+Generated numbers: 1410251104 1610221287 1296895071 -379261336 -1912248915
+
+Output of wc -l:
+7
+
+Test Run 316:
+Generated numbers: 1285176542 639367624 1126799672 -2144502686 -1647950191
+
+Output of wc -l:
+7
+
+Test Run 317:
+Generated numbers: -1486657848 -507242747 1036743557 1535185246 2073675999
+
+Output of wc -l:
+0
+
+Test Run 318:
+Generated numbers: -1364976864 1309029187 -472386482 1960825851 -1587670206
+
+Output of wc -l:
+6
+
+Test Run 319:
+Generated numbers: -2140961626 -551455052 -723287558 -880940203 216405050
+
+Output of wc -l:
+8
+
+Test Run 320:
+Generated numbers: 1227736147 -1359840766 -856193684 437356852 -865264100
+
+Output of wc -l:
+8
+
+Test Run 321:
+Generated numbers: -1531706035 1322606776 349699585 1034718882 2077243598
+
+Output of wc -l:
+7
+
+Test Run 322:
+Generated numbers: -537710399 2062425347 2075779744 691011214 -1880836264
+
+Output of wc -l:
+6
+
+Test Run 323:
+Generated numbers: -1785585298 -1137647522 360888926 1725698453 -773927635
+
+Output of wc -l:
+5
+
+Test Run 324:
+Generated numbers: 2041455893 -850399081 -1671934993 -731091632 -1812803136
+
+Output of wc -l:
+8
+
+Test Run 325:
+Generated numbers: 1385844909 -1337472951 886623018 -998009118 -1768284789
+
+Output of wc -l:
+7
+
+Test Run 326:
+Generated numbers: 1459526762 1566922740 -827986188 -1803532289 2128870986
+
+Output of wc -l:
+8
+
+Test Run 327:
+Generated numbers: -1377958590 -62048692 -1477271006 655986732 402793418
+
+Output of wc -l:
+10
+
+Test Run 328:
+Generated numbers: -612670071 -150704358 -1657096234 2043454819 778267040
+
+Output of wc -l:
+10
+
+Test Run 329:
+Generated numbers: 565817982 -848506571 -1968808478 1481509072 -1179000700
+
+Output of wc -l:
+8
+
+Test Run 330:
+Generated numbers: -102552417 -66359099 -1310352584 -973474676 -636081679
+
+Output of wc -l:
+2
+
+Test Run 331:
+Generated numbers: -1192931646 774758684 -683325781 394947391 -708328872
+
+Output of wc -l:
+6
+
+Test Run 332:
+Generated numbers: -1834894834 1775080347 1484946296 -609116675 948226474
+
+Output of wc -l:
+8
+
+Test Run 333:
+Generated numbers: -79479746 387853581 612217921 -919034192 -1629711657
+
+Output of wc -l:
+8
+
+Test Run 334:
+Generated numbers: -1459248308 -659998021 -1680024121 1563961942 -2143699917
+
+Output of wc -l:
+8
+
+Test Run 335:
+Generated numbers: 1758732119 1826196448 1518703976 -145150873 -1220184961
+
+Output of wc -l:
+7
+
+Test Run 336:
+Generated numbers: 25597475 -365866175 -2140027442 -473113793 1361324755
+
+Output of wc -l:
+8
+
+Test Run 337:
+Generated numbers: 822004283 -1392231810 233037247 456423124 1403086515
+
+Output of wc -l:
+7
+
+Test Run 338:
+Generated numbers: -1122776291 1685749949 -1323187574 -423442255 2085320024
+
+Output of wc -l:
+9
+
+Test Run 339:
+Generated numbers: 1697514706 354063187 -1532455057 33371422 1399530270
+
+Output of wc -l:
+7
+
+Test Run 340:
+Generated numbers: -401204930 -1479711191 510323098 -290820499 2036911744
+
+Output of wc -l:
+7
+
+Test Run 341:
+Generated numbers: -1414607478 982859701 888716485 801269248 1426911943
+
+Output of wc -l:
+8
+
+Test Run 342:
+Generated numbers: -2030503225 -78524837 222012680 1890907559 1691442133
+
+Output of wc -l:
+6
+
+Test Run 343:
+Generated numbers: -1683195788 -1796589695 -596663714 -376755069 1701567785
+
+Output of wc -l:
+8
+
+Test Run 344:
+Generated numbers: 914077296 43346534 1845339087 -1220638477 1524742826
+
+Output of wc -l:
+10
+
+Test Run 345:
+Generated numbers: -608238259 -830902447 -827169849 -13105771 -1716846486
+
+Output of wc -l:
+8
+
+Test Run 346:
+Generated numbers: 1652294445 -1698319918 -664868429 1362715020 -1850787879
+
+Output of wc -l:
+8
+
+Test Run 347:
+Generated numbers: 1904773359 614634717 506693442 -772905067 46016376
+
+Output of wc -l:
+8
+
+Test Run 348:
+Generated numbers: -1007816384 -846849186 -219110180 -2108934185 1020793626
+
+Output of wc -l:
+9
+
+Test Run 349:
+Generated numbers: -1104373345 1507046525 1370175344 -964628437 -819228184
+
+Output of wc -l:
+8
+
+Test Run 350:
+Generated numbers: 796665989 -75326715 1701867000 528020034 -1902656873
+
+Output of wc -l:
+7
+
+Test Run 351:
+Generated numbers: -180310138 1743841534 582101997 -1973675138 -972677593
+
+Output of wc -l:
+8
+
+Test Run 352:
+Generated numbers: 933944101 -362215294 -1954309600 29942441 -221208581
+
+Output of wc -l:
+8
+
+Test Run 353:
+Generated numbers: 772742043 -1677246266 239231448 -386005481 91698660
+
+Output of wc -l:
+8
+
+Test Run 354:
+Generated numbers: -88889235 -813800978 -1948511513 1134393005 341814389
+
+Output of wc -l:
+9
+
+Test Run 355:
+Generated numbers: 1947732786 -825316080 -1967461891 -518726027 -1447233071
+
+Output of wc -l:
+8
+
+Test Run 356:
+Generated numbers: 123370860 525744485 -992167998 -478336283 -1547813548
+
+Output of wc -l:
+9
+
+Test Run 357:
+Generated numbers: 2142125405 -1138474530 -1239083745 -1423472177 250341207
+
+Output of wc -l:
+8
+
+Test Run 358:
+Generated numbers: 1913621125 2141008472 -386312249 -240609699 -2015178946
+
+Output of wc -l:
+9
+
+Test Run 359:
+Generated numbers: 769677052 226474311 1523906525 -986440614 -1548950594
+
+Output of wc -l:
+7
+
+Test Run 360:
+Generated numbers: 341707517 -255082863 1521522991 -1795966690 844180992
+
+Output of wc -l:
+10
+
+Test Run 361:
+Generated numbers: 2144940248 -1456297168 -228961801 -211939310 -1598970401
+
+Output of wc -l:
+8
+
+Test Run 362:
+Generated numbers: 1708168952 -1986158387 2003844358 -407526939 -1662792742
+
+Output of wc -l:
+8
+
+Test Run 363:
+Generated numbers: 57619725 583880162 -994943022 -167765500 -1437460523
+
+Output of wc -l:
+9
+
+Test Run 364:
+Generated numbers: -1530551727 1269118093 151373490 -1444727953 720460554
+
+Output of wc -l:
+7
+
+Test Run 365:
+Generated numbers: 1007252250 1581035856 779800559 1872617269 -197138439
+
+Output of wc -l:
+8
+
+Test Run 366:
+Generated numbers: 455629133 425440266 1921437505 -1421680191 -826466052
+
+Output of wc -l:
+7
+
+Test Run 367:
+Generated numbers: -278545566 1414502198 -1227624184 -200762838 586449253
+
+Output of wc -l:
+9
+
+Test Run 368:
+Generated numbers: 1534683516 -470699875 1356803776 1903066884 -483028025
+
+Output of wc -l:
+8
+
+Test Run 369:
+Generated numbers: 1105075297 -947426430 456040912 1061992150 -1919689759
+
+Output of wc -l:
+8
+
+Test Run 370:
+Generated numbers: -442095169 2058400813 -1443733657 798624938 -635392414
+
+Output of wc -l:
+9
+
+Test Run 371:
+Generated numbers: -396527835 1921659649 1525476007 1038729508 -322720796
+
+Output of wc -l:
+7
+
+Test Run 372:
+Generated numbers: -1857195883 -1822647562 -2044312914 1291391761 -1878553879
+
+Output of wc -l:
+9
+
+Test Run 373:
+Generated numbers: 1184166047 1507859834 -1503002468 1749716016 -863973372
+
+Output of wc -l:
+9
+
+Test Run 374:
+Generated numbers: 490788633 -1189567762 1421508795 2003169971 -382156952
+
+Output of wc -l:
+9
+
+Test Run 375:
+Generated numbers: 577176452 1300323182 165381351 1846712527 -9628751
+
+Output of wc -l:
+8
+
+Test Run 376:
+Generated numbers: -1929016033 735849819 -956074402 1209974894 1698901024
+
+Output of wc -l:
+6
+
+Test Run 377:
+Generated numbers: -964515838 224688725 130932120 597023496 -1015253790
+
+Output of wc -l:
+6
+
+Test Run 378:
+Generated numbers: -2130341334 252641409 1073400458 -1165235581 201019145
+
+Output of wc -l:
+8
+
+Test Run 379:
+Generated numbers: 1889076752 970402851 -436153433 1073103986 902384478
+
+Output of wc -l:
+8
+
+Test Run 380:
+Generated numbers: -648064435 -1690906375 -1606146907 -716497311 -1357585994
+
+Output of wc -l:
+6
+
+Test Run 381:
+Generated numbers: 1649656272 640020331 -613054529 -1756527329 524995581
+
+Output of wc -l:
+9
+
+Test Run 382:
+Generated numbers: -1893382833 1456081998 -93898663 -1029114805 -2019584351
+
+Output of wc -l:
+7
+
+Test Run 383:
+Generated numbers: 238940784 1837216289 -1176432860 1764361142 -894119382
+
+Output of wc -l:
+9
+
+Test Run 384:
+Generated numbers: -1661542866 1938342796 -258925484 462053619 -421682792
+
+Output of wc -l:
+6
+
+Test Run 385:
+Generated numbers: -504200102 1680650143 -1903379232 -1173231831 -2084175527
+
+Output of wc -l:
+9
+
+Test Run 386:
+Generated numbers: 1883021492 -1102397817 -272908096 -204295677 612273996
+
+Output of wc -l:
+1
+
+Test Run 387:
+Generated numbers: 1142827235 1739485218 -1456724174 1370420823 2118225327
+
+Output of wc -l:
+9
+
+Test Run 388:
+Generated numbers: 2124764797 -1052820861 1405166577 -1073438305 1396172095
+
+Output of wc -l:
+9
+
+Test Run 389:
+Generated numbers: 1556582811 199714416 -1163323648 663676374 213944722
+
+Output of wc -l:
+8
+
+Test Run 390:
+Generated numbers: -1996495778 1232268913 1723628922 -2056813939 1357109631
+
+Output of wc -l:
+9
+
+Test Run 391:
+Generated numbers: 223414291 768922765 388563445 -76363866 -1019154073
+
+Output of wc -l:
+8
+
+Test Run 392:
+Generated numbers: -871007194 1935922405 -817904597 1739732347 1183840707
+
+Output of wc -l:
+6
+
+Test Run 393:
+Generated numbers: -1799940181 -178966589 2074058850 206559075 -2021379439
+
+Output of wc -l:
+7
+
+Test Run 394:
+Generated numbers: -198012654 116608368 -1407120856 -1968612005 1685258062
+
+Output of wc -l:
+8
+
+Test Run 395:
+Generated numbers: 1739392161 -1055297430 2111909568 -936982743 -1430524927
+
+Output of wc -l:
+7
+
+Test Run 396:
+Generated numbers: -1734961561 719211053 -701391306 -1610992304 -877720350
+
+Output of wc -l:
+8
+
+Test Run 397:
+Generated numbers: -1412352091 1171507889 -2014392137 -958297943 -2025262760
+
+Output of wc -l:
+8
+
+Test Run 398:
+Generated numbers: -1040511829 -1959211350 -974202550 495179505 -328144301
+
+Output of wc -l:
+8
+
+Test Run 399:
+Generated numbers: 1690163484 1183356321 1764709215 -1958496381 1333202815
+
+Output of wc -l:
+9
+
+Test Run 400:
+Generated numbers: 1235836768 -350907633 968338074 -1188448362 1633547989
+
+Output of wc -l:
+10
+
+Test Run 401:
+Generated numbers: -767790377 187494264 -1475144695 -1703683501 -1106585142
+
+Output of wc -l:
+9
+
+Test Run 402:
+Generated numbers: 2130146220 1858427090 -1235513254 1679630784 -1516755393
+
+Output of wc -l:
+9
+
+Test Run 403:
+Generated numbers: -1398535634 -694429288 639900174 169223178 -1252782011
+
+Output of wc -l:
+7
+
+Test Run 404:
+Generated numbers: 1049912472 -551928493 1928248550 -2010078678 81785970
+
+Output of wc -l:
+9
+
+Test Run 405:
+Generated numbers: 1801923417 491752109 -394207449 835374603 1301095138
+
+Output of wc -l:
+4
+
+Test Run 406:
+Generated numbers: -701201028 1471741971 -351304497 617667434 687130246
+
+Output of wc -l:
+7
+
+Test Run 407:
+Generated numbers: 1823729159 1558097508 -367694992 2035003255 -1046462028
+
+Output of wc -l:
+9
+
+Test Run 408:
+Generated numbers: 335296098 220276096 2111816983 -1515612272 1998268986
+
+Output of wc -l:
+10
+
+Test Run 409:
+Generated numbers: -2121907492 865159828 346974554 -1425642571 -1716199427
+
+Output of wc -l:
+7
+
+Test Run 410:
+Generated numbers: 1432056443 972516580 -1038222579 262486793 414565215
+
+Output of wc -l:
+8
+
+Test Run 411:
+Generated numbers: -1974796979 1966387130 939211608 108922185 381857282
+
+Output of wc -l:
+8
+
+Test Run 412:
+Generated numbers: 498329948 -908695429 -815417083 -1022034779 1843989272
+
+Output of wc -l:
+10
+
+Test Run 413:
+Generated numbers: -1571271934 -1654807293 1518855371 2071803061 -47830899
+
+Output of wc -l:
+7
+
+Test Run 414:
+Generated numbers: 1898114212 -2121059508 921677002 -2034508250 -1187445766
+
+Output of wc -l:
+8
+
+Test Run 415:
+Generated numbers: 992322627 -725801632 -13064627 446578918 617029907
+
+Output of wc -l:
+1
+
+Test Run 416:
+Generated numbers: -1637435911 178678304 -1606201815 260119853 -991070715
+
+Output of wc -l:
+6
+
+Test Run 417:
+Generated numbers: 1268839791 -850330831 -1745786544 -557937396 -769633914
+
+Output of wc -l:
+8
+
+Test Run 418:
+Generated numbers: 829801664 683773736 -214299520 656047279 -185730216
+
+Output of wc -l:
+9
+
+Test Run 419:
+Generated numbers: -1749076261 -276391840 331011341 -556556762 28377464
+
+Output of wc -l:
+7
+
+Test Run 420:
+Generated numbers: -1279387161 -1155706736 -806599002 1137046035 -426006015
+
+Output of wc -l:
+6
+
+Test Run 421:
+Generated numbers: 760862353 -652750959 660964452 30624576 389427621
+
+Output of wc -l:
+8
+
+Test Run 422:
+Generated numbers: -2075543911 -524157872 -500891356 1557407074 -1460261004
+
+Output of wc -l:
+7
+
+Test Run 423:
+Generated numbers: -1487489891 2142164303 -2145912422 713972108 960041387
+
+Output of wc -l:
+9
+
+Test Run 424:
+Generated numbers: -575707238 14153450 1439326779 1791743501 -565195643
+
+Output of wc -l:
+7
+
+Test Run 425:
+Generated numbers: -2013998394 -1759341950 -1900760092 -253415172 -551181909
+
+Output of wc -l:
+7
+
+Test Run 426:
+Generated numbers: 948437949 -2073866095 1167210024 1974069701 -315197629
+
+Output of wc -l:
+9
+
+Test Run 427:
+Generated numbers: 57999326 -2079354458 895798152 1877618084 -506582817
+
+Output of wc -l:
+9
+
+Test Run 428:
+Generated numbers: -493218681 2003426400 1376442558 -722480956 1173453489
+
+Output of wc -l:
+9
+
+Test Run 429:
+Generated numbers: 369470445 -1536024211 -43673203 902970942 6927914
+
+Output of wc -l:
+6
+
+Test Run 430:
+Generated numbers: -2048988600 1100372750 1422763727 -861296169 -1113467646
+
+Output of wc -l:
+6
+
+Test Run 431:
+Generated numbers: 933923446 -1844441872 -719820569 1610904006 -917922998
+
+Output of wc -l:
+8
+
+Test Run 432:
+Generated numbers: 2053032228 2008250932 -717939051 -333304188 1035002252
+
+Output of wc -l:
+8
+
+Test Run 433:
+Generated numbers: -266493717 -1303554367 569476773 -761306344 -66741507
+
+Output of wc -l:
+7
+
+Test Run 434:
+Generated numbers: 863547785 -1989567544 -965833339 -2107148954 902812020
+
+Output of wc -l:
+10
+
+Test Run 435:
+Generated numbers: 1908977001 1269286447 -1529143279 -1484530699 -2126253705
+
+Output of wc -l:
+9
+
+Test Run 436:
+Generated numbers: 292013170 -632354314 -204179310 2032812019 1949222509
+
+Output of wc -l:
+7
+
+Test Run 437:
+Generated numbers: 1693554231 377403017 1805463932 1842751303 157340317
+
+Output of wc -l:
+7
+
+Test Run 438:
+Generated numbers: 1299094219 1031468666 682399329 1380082162 962685
+
+Output of wc -l:
+9
+
+Test Run 439:
+Generated numbers: 568673769 1552764477 498984057 527456147 862634804
+
+Output of wc -l:
+7
+
+Test Run 440:
+Generated numbers: -100544397 -2097496444 582081147 -1670836538 -1804214463
+
+Output of wc -l:
+8
+
+Test Run 441:
+Generated numbers: -2054310178 2013754935 1808017915 -554584741 -1528831172
+
+Output of wc -l:
+7
+
+Test Run 442:
+Generated numbers: -1556930523 792022540 1104927556 1152768298 507614108
+
+Output of wc -l:
+2
+
+Test Run 443:
+Generated numbers: 558645824 -610546525 1886161023 102486184 -2007684603
+
+Output of wc -l:
+7
+
+Test Run 444:
+Generated numbers: 167251586 -237033045 -1816586630 -1659123782 -2077927232
+
+Output of wc -l:
+9
+
+Test Run 445:
+Generated numbers: -518037105 1663980243 -1758952325 -615911082 1201370847
+
+Output of wc -l:
+7
+
+Test Run 446:
+Generated numbers: 1770844157 -786609909 -470075928 2073652458 -1377166192
+
+Output of wc -l:
+8
+
+Test Run 447:
+Generated numbers: -1916512593 -1642098229 1037386692 -387273767 -1249265328
+
+Output of wc -l:
+6
+
+Test Run 448:
+Generated numbers: -1634494841 1795471305 -232816752 -2101211379 1020578015
+
+Output of wc -l:
+8
+
+Test Run 449:
+Generated numbers: -704735287 -617537394 1516818034 -502707802 1226037287
+
+Output of wc -l:
+5
+
+Test Run 450:
+Generated numbers: -1891100196 2103694602 1941828311 -1750228622 -1355094377
+
+Output of wc -l:
+8
+
+Test Run 451:
+Generated numbers: -269557634 -987847051 1884399823 1200866579 1144392599
+
+Output of wc -l:
+8
+
+Test Run 452:
+Generated numbers: -787134040 -945557011 -280143523 1349923111 268098894
+
+Output of wc -l:
+8
+
+Test Run 453:
+Generated numbers: -1355549501 -1203131075 -824165968 -1744457005 1050849381
+
+Output of wc -l:
+9
+
+Test Run 454:
+Generated numbers: 459491401 -912947507 -1128270862 997707503 -1193822629
+
+Output of wc -l:
+9
+
+Test Run 455:
+Generated numbers: -848392111 1823863212 1634238485 999401858 1576155406
+
+Output of wc -l:
+8
+
+Test Run 456:
+Generated numbers: -1854840231 2118851869 1642444343 342454972 -455574441
+
+Output of wc -l:
+7
+
+Test Run 457:
+Generated numbers: -370984458 -171330699 426146041 1556039259 1703458979
+
+Output of wc -l:
+0
+
+Test Run 458:
+Generated numbers: -245148818 -2053900041 -1057080816 -2011102741 -1166353537
+
+Output of wc -l:
+8
+
+Test Run 459:
+Generated numbers: 1553937281 -724933525 -1367234478 -1174243806 1579075919
+
+Output of wc -l:
+8
+
+Test Run 460:
+Generated numbers: 2121745936 -100925201 1126021956 606270465 -286965413
+
+Output of wc -l:
+7
+
+Test Run 461:
+Generated numbers: -258832446 -2027188713 1486927064 -850068286 -933939231
+
+Output of wc -l:
+8
+
+Test Run 462:
+Generated numbers: 283227485 1694846948 -1526885545 1883132241 1703676908
+
+Output of wc -l:
+10
+
+Test Run 463:
+Generated numbers: -120011025 -242020769 -1807368029 1347284230 1438137228
+
+Output of wc -l:
+8
+
+Test Run 464:
+Generated numbers: 411528260 1216170823 1011533969 251253162 293618647
+
+Output of wc -l:
+8
+
+Test Run 465:
+Generated numbers: 1979636179 2041133074 1218997077 -990133525 1086459835
+
+Output of wc -l:
+7
+
+Test Run 466:
+Generated numbers: 349742556 1648390438 135359238 1461374576 532176186
+
+Output of wc -l:
+10
+
+Test Run 467:
+Generated numbers: -1829670937 171716147 1934558783 282764852 1790412823
+
+Output of wc -l:
+5
+
+Test Run 468:
+Generated numbers: 1802529651 829729879 1766433969 210353000 994573768
+
+Output of wc -l:
+9
+
+Test Run 469:
+Generated numbers: 1382609471 -329582964 -2035678970 691306570 -605730539
+
+Output of wc -l:
+8
+
+Test Run 470:
+Generated numbers: -163274747 -152130599 780270796 -328171433 1990000956
+
+Output of wc -l:
+9
+
+Test Run 471:
+Generated numbers: 1589642824 -1306159098 -1535991668 -538351765 1443616483
+
+Output of wc -l:
+9
+
+Test Run 472:
+Generated numbers: -685819287 288376953 -1386415497 -761031169 1076530177
+
+Output of wc -l:
+7
+
+Test Run 473:
+Generated numbers: 138312513 89072456 885822238 -1822326606 1835776826
+
+Output of wc -l:
+9
+
+Test Run 474:
+Generated numbers: 1737073966 -170495558 997836142 935901901 -606217605
+
+Output of wc -l:
+7
+
+Test Run 475:
+Generated numbers: -945577020 643640285 -665334098 -2074126893 182357395
+
+Output of wc -l:
+8
+
+Test Run 476:
+Generated numbers: -1257162863 519688658 1905700634 -1992269187 1496699953
+
+Output of wc -l:
+9
+
+Test Run 477:
+Generated numbers: -1219253998 452993239 764956827 -1184229055 647012847
+
+Output of wc -l:
+7
+
+Test Run 478:
+Generated numbers: 1931381025 755935764 1481619521 253573344 -2102796997
+
+Output of wc -l:
+7
+
+Test Run 479:
+Generated numbers: 1246990160 552087753 -993056813 -754624584 252005269
+
+Output of wc -l:
+8
+
+Test Run 480:
+Generated numbers: 875914120 1672729914 -1493478980 714536947 1751715516
+
+Output of wc -l:
+7
+
+Test Run 481:
+Generated numbers: -856531430 -1506092902 -330866664 -203585279 699765406
+
+Output of wc -l:
+8
+
+Test Run 482:
+Generated numbers: 236014431 1000893965 -2089973056 -170645571 -2048261755
+
+Output of wc -l:
+8
+
+Test Run 483:
+Generated numbers: 939587411 568902959 540582157 -1991330899 617957899
+
+Output of wc -l:
+8
+
+Test Run 484:
+Generated numbers: -1076934654 -1863985895 -449596126 1812935124 -632106175
+
+Output of wc -l:
+7
+
+Test Run 485:
+Generated numbers: -1045573170 -1840846062 -2033479050 -1412851727 705644827
+
+Output of wc -l:
+9
+
+Test Run 486:
+Generated numbers: -1884525956 -1291618330 1028949818 -2094864892 768514090
+
+Output of wc -l:
+9
+
+Test Run 487:
+Generated numbers: -1940089344 573559915 918780196 324798392 -980229564
+
+Output of wc -l:
+6
+
+Test Run 488:
+Generated numbers: -258247828 1760034989 -1566522414 -2016257176 1808571288
+
+Output of wc -l:
+8
+
+Test Run 489:
+Generated numbers: 1725970131 -1516253754 593894546 1965707668 -497191940
+
+Output of wc -l:
+8
+
+Test Run 490:
+Generated numbers: 1404577893 1017081200 -715113643 1384325712 759595197
+
+Output of wc -l:
+8
+
+Test Run 491:
+Generated numbers: -904261129 191009089 1271594666 -301790838 -2012841254
+
+Output of wc -l:
+6
+
+Test Run 492:
+Generated numbers: -629540845 -1327883975 96630741 493247841 -1351627468
+
+Output of wc -l:
+7
+
+Test Run 493:
+Generated numbers: 501918386 1882410784 334538118 -1429963724 211507286
+
+Output of wc -l:
+7
+
+Test Run 494:
+Generated numbers: 1369849035 1690607264 -1677499467 -1911464372 681143687
+
+Output of wc -l:
+9
+
+Test Run 495:
+Generated numbers: -704174989 1098535758 -1146358974 125739364 382018950
+
+Output of wc -l:
+9
+
+Test Run 496:
+Generated numbers: -753210441 -182189338 -1158140851 1287802547 -1072357078
+
+Output of wc -l:
+9
+
+Test Run 497:
+Generated numbers: -659146980 -1370847677 -488029062 -245115849 -1889503207
+
+Output of wc -l:
+7
+
+Test Run 498:
+Generated numbers: -456550441 -934092539 -193641722 1714401592 492590623
+
+Output of wc -l:
+8
+
+Test Run 499:
+Generated numbers: -1150546948 -908671868 619118203 1775613893 1125580679
+
+Output of wc -l:
+6
+
+Test Run 500:
+Generated numbers: -604130721 2091554803 -368257598 1414200664 1181122596
+
+Output of wc -l:
+6
+
+Average Line Count: 7.366

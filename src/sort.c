@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/09 10:43:16 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/11 23:15:05 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ bool	ft_is_sorted(t_meta *meta)
 	int	i;
 
 	i = 0;
-	while (meta->a.arr[meta->num_count - ++i - 1])
+	while (meta->num_count - ++i)
 		if (meta->a.arr[meta->num_count - i]
 			> meta->a.arr[meta->num_count - i - 1])
 			return (0);
