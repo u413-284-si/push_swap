@@ -6,7 +6,7 @@
 #    By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/05 10:37:52 by sqiu              #+#    #+#              #
-#    Updated: 2023/05/09 10:34:22 by sqiu             ###   ########.fr        #
+#    Updated: 2023/05/12 17:27:06 by sqiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CFLAGS 		= -Wall -Wextra -Werror
 CPPFLAGS	= -I/usr/include -I./inc					# search in directories for included Makefiles
 LDFLAGS		= -L./libft -L/usr/lib						# search for libraries in libft and /usr/lib
 LDLIBS		= -lft 										# link libraries: libft
-OPTION 		= -c -O3									# -c generates object files, -O3 adds compile time, but reduces execution time and code size 					
+OPTION 		= -c 										# -c generates object files, -O3 adds compile time, but reduces execution time and code size 					
 DEBUG		= -g
 CC 			= cc
 

@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 14:46:06 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/08 15:20:57 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/12 17:40:20 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 /* ====== Functions ====== */
 
-int		ft_find_min(t_meta *meta);
-void	ft_rotate(char *s, int pos, t_meta *meta);
+int		ft_find_min(t_stack given);
+int 	ft_find_max(t_stack given);
+void	ft_rotate(char *s, int pos, t_meta *meta, char stack);
 #endif
