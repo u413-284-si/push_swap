@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/12 19:33:28 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/15 16:55:47 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,22 +32,6 @@ void	ft_sort(t_meta *meta)
 		ft_insertion_sort(meta);
 	/* else
 		ft_quicksort(meta); */
-}
-
-/* This function verifies whether the given stack is already sorted in ascending
-order starting from the smallest value at the top (= arr[total of numbers - 1]).
-*/
-
-bool	ft_is_sorted(t_stack stack)
-{
-	int	i;
-
-	i = 0;
-	while (stack.size - ++i)
-		if (stack.arr[stack.size - i]
-			> stack.arr[stack.size - i - 1])
-			return (0);
-	return (1);
 }
 
 /* This function sorts stack a if the number of values it contains is
@@ -82,34 +66,45 @@ void	ft_insertion_sort(t_meta *meta)
 {
 	int	i;
 	int	j;
-	int	key;
 	int	key_index;
 
 	i = 0;
 	while (++i < meta->num_count)
 	{
 		key_index = meta->num_count - i - 1;
-		key = meta->a.arr[key_index];
 		j = key_index + 1;
 		if (meta->a.arr[j] > meta->a.arr[key_index])
 			ft_sa(meta, true);
 		if (meta->b.size >= 2)
-			ft_sort_b(meta);
+			ft_sort_b_insert(meta);
 		ft_pb(meta, true);
 	}
+	ft_sort_b_topdown(meta);
 	while (i-- >= 0)
 		ft_pa(meta, true);
 }
 
-void	ft_sort_b(t_meta *meta)
+void	ft_sort_b_insert(t_meta *meta)
 {
 	int	pos;
-	int	i;
 
-	i = -1;
-	while (++i < meta->b.size)
+	pos = ft_find_direct_inferior(meta->b, meta);
+	if (pos != 0)
 	{
-		pos = ft_find_max(meta->b); // not max, but value which is closest to value to be pushed over and smaller than it
+		if (pos <= meta->b.size / 2)
+			ft_rotate("up", pos, meta, 'b');
+		else
+			ft_rotate("down", pos, meta, 'b');
+	}
+}
+
+void	ft_sort_b_topdown(t_meta *meta)
+{
+	int	pos;
+
+	pos = ft_find_max(meta->b);
+	if (pos != 0)
+	{
 		if (pos <= meta->b.size / 2)
 			ft_rotate("up", pos, meta, 'b');
 		else

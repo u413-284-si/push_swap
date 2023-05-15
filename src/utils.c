@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 14:45:59 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/12 17:39:53 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/15 16:53:03 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,10 +53,10 @@ starting from the top of the stack which is stack.arr[stack.top].
 The top value is initially declared as the maximal value. If a
 higher value is encountered, the max variable and the position
 counter (starting from 0) are updated. 
-If the top value is min:
+If the top value is max:
 	max = stack.arr[stack.top]
 	pos = 0
-If last value is min:
+If last value is max:
 	max = stack.arr[0]
 	pos = stack.top */
 
@@ -82,6 +82,40 @@ int	ft_find_max(t_stack given)
 	return (pos);
 }
 
+/* This function locates in the given stack the value closest to the 
+value on top of stack a, but which is still inferior to it. It iterates
+starting from the top of the stack which is given.arr[given.top].
+The top value is initially declared as the closest value. If a
+closer value is encountered, the d_inf variable and the position
+counter (starting from 0) are updated. 
+If the top value is d_inf:
+	d_inf = given.arr[given.top]
+	pos = 0
+If last value is d_inf:
+	d_inf = given.arr[0]
+	pos = given.top */
+
+int	ft_find_direct_inferior(t_stack given, t_meta *meta)
+{
+	int		pos;
+	int		i;
+	long	diff;
+
+	pos = 0;
+	diff = INT_MAX;
+	i = given.top + 1;
+	while (--i >= 0)
+	{
+		if (meta->a.arr[meta->a.top] - given.arr[i] < diff
+			&& given.arr[i] < meta->a.arr[meta->a.top])
+		{
+			pos = given.top - i;
+			diff = meta->a.arr[meta->a.top] - given.arr[i];
+		}
+	}
+	return (pos);
+}
+
 /* This function  rotates the defined stack up- or downwards depending 
 on the given string parameter. The amount of rotation steps
 required is 
@@ -91,27 +125,41 @@ required is
 
 void	ft_rotate(char *s, int pos, t_meta *meta, char stack)
 {
-	int	i;
+	int		i;
 
 	i = -1;
 	if (!ft_strncmp(s, "up", 2))
 	{
-		while (++i < pos)
-		{
-			if (stack == 'a')
+		if (stack == 'a')
+			while (++i < pos)
 				ft_ra(meta, true);
-			else
+		else
+			while (++i < pos)
 				ft_rb(meta, true);
-		}
 	}
 	else
 	{
-		while (++i < meta->a.size - pos)
-		{
-			if (stack == 'a')
+		if (stack == 'a')
+			while (++i < meta->a.size - pos)
 				ft_rra(meta, true);
-			else
+		else
+			while (++i < meta->b.size - pos)
 				ft_rrb(meta, true);
-		}
 	}
+}
+
+/* This function verifies whether the given stack is already sorted in ascending
+order starting from the smallest value at the top (= arr[total of numbers - 1]).
+*/
+
+bool	ft_is_sorted(t_stack stack)
+{
+	int	i;
+
+	i = 0;
+	while (stack.size - ++i)
+		if (stack.arr[stack.size - i]
+			> stack.arr[stack.size - i - 1])
+			return (0);
+	return (1);
 }
