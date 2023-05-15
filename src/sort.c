@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/15 16:55:47 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/15 17:46:22 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 #include "../inc/simple_sort.h"
 #include "../inc/ops.h"
 #include "../inc/utils.h"
+#include "../inc/utils_insert.h"
+
 
 /* This function differentiates between the amount of values to be sorted and
 assigns a sorting algorithm accordingly. Prior to that it calls a subfunction
@@ -30,8 +32,8 @@ void	ft_sort(t_meta *meta)
 		ft_simple_sort(meta);
 	else if (meta->num_count < 64)
 		ft_insertion_sort(meta);
-	/* else
-		ft_quicksort(meta); */
+	else
+		ft_quicksort(meta);
 }
 
 /* This function sorts stack a if the number of values it contains is
@@ -53,9 +55,19 @@ void	ft_simple_sort(t_meta *meta)
 for small amounts of data values, it is executed for an amount up to 63
 values.
 
+Theory:
 The array is split into a sorted and an unsorted part. Values from the un-
 sorted part are picked and placed at the correct position in the sorted
 part. Best case (= already sorted) every insert requires constant time.
+
+Implementation:
+Stack b represents the sorted part, stack a the unsorted. The top both values
+of stack a are compared and the smaller one swapped to the top. Before pushing
+this value x over to stack b the correct position in b is identified and
+presented by rotating the directly inferior value y (y < x) in b to the top.
+When all but one value (the max of all values) are pushed to b, it is rotated
+to a descending order so that its max value is on top.
+Finally all values are pushed back to a.
 
 Time complexity:	Average		Best	Worst
 					O(n²)		O(n)	O(n²)
@@ -84,30 +96,7 @@ void	ft_insertion_sort(t_meta *meta)
 		ft_pa(meta, true);
 }
 
-void	ft_sort_b_insert(t_meta *meta)
+void	ft_quicksort(t_meta *meta)
 {
-	int	pos;
-
-	pos = ft_find_direct_inferior(meta->b, meta);
-	if (pos != 0)
-	{
-		if (pos <= meta->b.size / 2)
-			ft_rotate("up", pos, meta, 'b');
-		else
-			ft_rotate("down", pos, meta, 'b');
-	}
-}
-
-void	ft_sort_b_topdown(t_meta *meta)
-{
-	int	pos;
-
-	pos = ft_find_max(meta->b);
-	if (pos != 0)
-	{
-		if (pos <= meta->b.size / 2)
-			ft_rotate("up", pos, meta, 'b');
-		else
-			ft_rotate("down", pos, meta, 'b');
-	}
+	
 }
