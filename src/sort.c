@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/15 17:46:22 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/21 13:30:46 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include "../inc/ops.h"
 #include "../inc/utils.h"
 #include "../inc/utils_insert.h"
+#include "../inc/utils_quicksort.h"
 
 
 /* This function differentiates between the amount of values to be sorted and
@@ -26,14 +27,14 @@ needed. */
 
 void	ft_sort(t_meta *meta)
 {
-	if (ft_is_sorted(meta->a))
+	if (ft_is_sorted(meta->a, ASC))
 		ft_backtozero(meta, 0);
 	if (meta->num_count <= 5)
 		ft_simple_sort(meta);
-	else if (meta->num_count < 64)
-		ft_insertion_sort(meta);
+/* 	else if (meta->num_count < 64)
+		ft_insertion_sort(meta); */
 	else
-		ft_quicksort(meta);
+		ft_quicksort_a(meta, meta->a.size);
 }
 
 /* This function sorts stack a if the number of values it contains is
@@ -96,7 +97,68 @@ void	ft_insertion_sort(t_meta *meta)
 		ft_pa(meta, true);
 }
 
-void	ft_quicksort(t_meta *meta)
+int	ft_quicksort_a(t_meta *meta, int n)
 {
-	
+	int	median;
+	int	i;
+	int	rot_count;
+
+	if (ft_is_sorted(meta->a, ASC))
+		return (1);
+	if (n <= 3)
+	{
+		ft_sort_three(meta);
+		return (1);
+	}
+	ft_get_median(meta, meta->a, n, &median);
+	i = n;
+	rot_count = 0;
+	while (i-- > 0)
+	{
+		if (meta->a.arr[meta->a.top] < median)
+			ft_pb(meta, true);
+		else
+		{
+			ft_ra(meta, true);
+			rot_count++;
+		}
+	}
+	while (rot_count--)
+		ft_rra(meta, true);
+	return (ft_quicksort_a(meta, (n + 1) / 2 + 1) && ft_quicksort_b(meta, n / 2 - 1));
+	return (1);
+}
+
+int	ft_quicksort_b(t_meta *meta, int n)
+{
+	int	median;
+	int	i;
+	int	rot_count;
+
+	i = meta->b.size;
+	if (ft_is_sorted(meta->b, DSC))
+		while (i-- > 0)
+			ft_pa(meta, true);
+	if (n <= 3)
+	{
+		ft_fusion_sort_three(meta, n);
+		return (1);
+	}
+	ft_get_median(meta, meta->b, n, &median);
+	i = n;
+	rot_count = 0;
+	while (i-- > 0)
+	{
+		if (meta->b.arr[meta->b.top] >= median)
+			ft_pa(meta, 1);
+		else
+		{
+			ft_rb(meta, true);
+			rot_count++;
+		}
+	}
+	while (rot_count--)
+		ft_rrb(meta, true);
+	return (ft_quicksort_a(meta, (n + 1) / 2 + 1) && ft_quicksort_b(meta, n / 2 - 1));
+	return (1);
 }

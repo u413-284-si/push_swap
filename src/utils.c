@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 14:45:59 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/15 16:53:03 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/19 14:30:11 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,14 +152,24 @@ void	ft_rotate(char *s, int pos, t_meta *meta, char stack)
 order starting from the smallest value at the top (= arr[total of numbers - 1]).
 */
 
-bool	ft_is_sorted(t_stack stack)
+bool	ft_is_sorted(t_stack stack, int order)
 {
 	int	i;
 
 	i = 0;
-	while (stack.size - ++i)
-		if (stack.arr[stack.size - i]
-			> stack.arr[stack.size - i - 1])
-			return (0);
+	if (order == 1)
+	{
+		while (stack.size - ++i)
+			if (stack.arr[stack.size - i]
+				> stack.arr[stack.size - i - 1])
+				return (0);
+	}
+	else if (order == 0)
+	{
+		while (stack.size - ++i)
+			if (stack.arr[stack.size - i]
+				< stack.arr[stack.size - i - 1])
+				return (0);
+	}
 	return (1);
 }
