@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 14:41:45 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/19 20:25:20 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/22 12:20:43 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include "../inc/utils_quicksort.h"
 #include "../inc/terminate.h"
 #include "../inc/ops.h"
+#include "../inc/simple_sort.h"
 
 /* This function identifies the median of a list of numbers provided in stack
 "given". To achieve that the list is first copied and sorted in ascending
@@ -31,7 +32,9 @@ void	ft_get_median(t_meta *meta, t_stack given, int n, int *median)
 	buffer = (int *) malloc(sizeof(int) * n);
 	if (!buffer)
 		ft_backtozero(meta, 1);
-	ft_memmove(buffer, given.arr, sizeof(int) * n);
+	i = -1;
+	while (++i < n)
+		buffer[i] = given.arr[given.top - i];
 	i = -1;
 	while (++i < n)
 	{
@@ -56,12 +59,14 @@ void	ft_swap(int *a, int *b)
 
 void	ft_fusion_sort_three(t_meta *meta, int n)
 {
-	if (n == 1) // required?
+	if (n == 1)
 		ft_pa(meta, true);
-	else if (n == 2)
+	if (n == 2)
 	{
 		if (meta->b.arr[meta->b.top] < meta->b.arr[meta->b.top - 1])
 			ft_sb(meta, true);
+		ft_pa(meta, true);
+		ft_pa(meta, true);
 	}
 	else if (n == 3)
 	{
@@ -73,7 +78,7 @@ void	ft_fusion_sort_three(t_meta *meta, int n)
 				ft_sa(meta, true);
 			else if (n == 1 || (n == 2 && meta->b.arr[meta->b.top]
 					> meta->b.arr[meta->b.top - 1]) || (n == 3
-					&& meta->b.arr[meta->b.top] > meta->a.arr[meta->a.top - 2]))
+					&& meta->b.arr[meta->b.top] > meta->b.arr[meta->b.top - 1]))
 			{
 				ft_pa(meta, true);
 				n--;
@@ -82,4 +87,35 @@ void	ft_fusion_sort_three(t_meta *meta, int n)
 				ft_sb(meta, true);
 		}
 	}
+}
+
+void	ft_sort_three_within(t_meta *meta, int n)
+{
+	if (n == 3 && meta->a.size == 3)
+		ft_sort_three(meta);
+	else if (n == 3)
+	{
+		while (n != 3 || !(meta->a.arr[meta->a.top] < meta->a.arr[meta->a.top - 1]
+				&& meta->a.arr[meta->a.top - 1] < meta->a.arr[meta->a.top - 2]))
+		{
+			if (n == 3 && meta->a.arr[meta->a.top]
+				> meta->a.arr[meta->a.top - 1])
+				ft_sa(meta, true);
+			else if (n == 3 && !(meta->a.arr[meta->a.top]
+					< meta->a.arr[meta->a.top - 2]
+					&& meta->a.arr[meta->a.top - 1]
+					< meta->a.arr[meta->a.top - 2]))
+			{
+				ft_pb(meta, true);
+				n--;
+			}
+			else if (meta->a.arr[meta->a.top] > meta->a.arr[meta->a.top - 1])
+				ft_sa(meta, true);
+			else if (n++)
+				ft_pa(meta, true);
+		}
+	}
+	else if (n == 2)
+		if (meta->a.arr[meta->a.top] > meta->a.arr[meta->a.top - 1])
+			ft_sa(meta, true);
 }

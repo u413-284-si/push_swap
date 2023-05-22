@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/21 13:30:46 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/22 12:39:38 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@ void	ft_sort(t_meta *meta)
 		ft_backtozero(meta, 0);
 	if (meta->num_count <= 5)
 		ft_simple_sort(meta);
-/* 	else if (meta->num_count < 64)
-		ft_insertion_sort(meta); */
+	else if (meta->num_count < 64)
+		ft_insertion_sort(meta);
 	else
 		ft_quicksort_a(meta, meta->a.size);
 }
@@ -107,7 +107,7 @@ int	ft_quicksort_a(t_meta *meta, int n)
 		return (1);
 	if (n <= 3)
 	{
-		ft_sort_three(meta);
+		ft_sort_three_within(meta, n);
 		return (1);
 	}
 	ft_get_median(meta, meta->a, n, &median);
@@ -117,15 +117,20 @@ int	ft_quicksort_a(t_meta *meta, int n)
 	{
 		if (meta->a.arr[meta->a.top] < median)
 			ft_pb(meta, true);
-		else
+		else if (meta->a.arr[meta->a.top] >= median)
 		{
 			ft_ra(meta, true);
 			rot_count++;
 		}
 	}
-	while (rot_count--)
+	while (rot_count-- && rot_count != meta->a.size)
 		ft_rra(meta, true);
-	return (ft_quicksort_a(meta, (n + 1) / 2 + 1) && ft_quicksort_b(meta, n / 2 - 1));
+	if (n % 2 == 0)
+		return (ft_quicksort_a(meta, (n + 1) / 2 + 1)
+			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
+	else
+		return (ft_quicksort_a(meta, (n + 1) / 2)
+			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
 	return (1);
 }
 
@@ -151,14 +156,19 @@ int	ft_quicksort_b(t_meta *meta, int n)
 	{
 		if (meta->b.arr[meta->b.top] >= median)
 			ft_pa(meta, 1);
-		else
+		else if (meta->b.arr[meta->b.top] < median)
 		{
 			ft_rb(meta, true);
 			rot_count++;
 		}
 	}
-	while (rot_count--)
+	while (rot_count-- && meta->b.size != 1)
 		ft_rrb(meta, true);
-	return (ft_quicksort_a(meta, (n + 1) / 2 + 1) && ft_quicksort_b(meta, n / 2 - 1));
+	if (n % 2 == 0)
+		return (ft_quicksort_a(meta, (n + 1) / 2 + 1)
+			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
+	else
+		return (ft_quicksort_a(meta, (n + 1) / 2)
+			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
 	return (1);
 }
