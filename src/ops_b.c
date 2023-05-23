@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 15:22:00 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/23 15:14:54 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/24 00:20:36 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,7 @@ void	ft_sb(t_meta *meta, bool print)
 	meta->b.arr[meta->b.top] = meta->b.arr[meta->b.top - 1];
 	meta->b.arr[meta->b.top - 1] = tmp;
 	if (print)
-	{
 		ft_save_op(meta, "sb\n");
-		ft_printf("sb\n");
-	}
 }
 
 /* This function pushes the first element on top of stack a to the top
@@ -48,10 +45,7 @@ void	ft_pb(t_meta *meta, bool print)
 	meta->b.size++;
 	meta->a.size--;
 	if (print)
-	{
 		ft_save_op(meta, "pb\n");
-		ft_printf("pb\n");
-	}
 }
 
 /* This function rotates all elements in stack b upwards to the top.
@@ -68,10 +62,7 @@ void	ft_rb(t_meta *meta, bool print)
 		meta->b.arr[meta->b.top - i] = meta->b.arr[meta->b.top - 1 - i];
 	meta->b.arr[0] = tmp;
 	if (print)
-	{
 		ft_save_op(meta, "rb\n");
-		ft_printf("rb\n");
-	}
 }
 
 /* This function rotates all elements in stack b downwards to the
@@ -88,8 +79,5 @@ void	ft_rrb(t_meta *meta, bool print)
 		meta->b.arr[i] = meta->b.arr[i + 1];
 	meta->b.arr[meta->b.top] = tmp;
 	if (print)
-	{
 		ft_save_op(meta, "rrb\n");
-		ft_printf("rrb\n");
-	}
 }

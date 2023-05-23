@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 15:22:00 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/23 15:13:44 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/24 00:19:42 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,7 @@ void	ft_sa(t_meta *meta, bool print)
 	meta->a.arr[meta->a.top] = meta->a.arr[meta->a.top - 1];
 	meta->a.arr[meta->a.top - 1] = tmp;
 	if (print)
-	{
 		ft_save_op(meta, "sa\n");
-		ft_printf("sa\n");
-	}
 }
 
 /* This function pushes the first element on top of stack b to the top
@@ -49,10 +46,7 @@ void	ft_pa(t_meta *meta, bool print)
 	meta->a.size++;
 	meta->b.size--;
 	if (print)
-	{
 		ft_save_op(meta, "pa\n");
-		ft_printf("pa\n");
-	}
 }
 
 /* This function rotates all elements in stack a upwards to the top.
@@ -69,10 +63,7 @@ void	ft_ra(t_meta *meta, bool print)
 		meta->a.arr[meta->a.top - i] = meta->a.arr[meta->a.top - 1 - i];
 	meta->a.arr[0] = tmp;
 	if (print)
-	{
 		ft_save_op(meta, "ra\n");
-		ft_printf("ra\n");
-	}
 }
 
 /* This function rotates all elements in stack a downwards to the
@@ -89,8 +80,5 @@ void	ft_rra(t_meta *meta, bool print)
 		meta->a.arr[i] = meta->a.arr[i + 1];
 	meta->a.arr[meta->a.top] = tmp;
 	if (print)
-	{
 		ft_save_op(meta, "rra\n");
-		ft_printf("rra\n");
-	}
 }

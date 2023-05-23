@@ -6,7 +6,7 @@
 #    By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/05 10:37:52 by sqiu              #+#    #+#              #
-#    Updated: 2023/05/23 13:33:16 by sqiu             ###   ########.fr        #
+#    Updated: 2023/05/24 00:21:58 by sqiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ INCLIST		= error.h initiate.h input_check.h ops.h push_swap.h simple_sort.h \
 INC			= $(addprefix ${INCDIR}, ${INCLIST})
 
 SRCDIR		= ./src/
-SRCLIST		= initiate.c input_check.c main.c ops_a.c ops_b.c ops_dual.c \
+SRCLIST		= initiate.c input_check.c main.c ops_a.c ops_b.c \
 			simple_sort.c sort.c terminate.c utils_insert.c utils_ops.c utils_quicksort.c \
 			utils.c 
 SRC			= $(addprefix ${SRCDIR}, ${SRCLIST})
@@ -90,10 +90,10 @@ re: 			fclean all
 valgr:			
 				@valgrind --leak-check=full\
 						--show-leak-kinds=all\
-						--trace-children=yes\
-						--track-fds=yes\
+						--trace-children=no\
+						--track-fds=no\
 						--log-file=valgrind-out.txt\
-						./pipex infile "wc" "cat" outfile
+						./push_swap 56 5 80 55 22 47 63 1 14 42 57 20 4
 				@less ./valgrind-out.txt
 
 .PHONY: 		all clean fclean re valgr

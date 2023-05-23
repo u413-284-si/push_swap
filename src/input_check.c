@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:46:30 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/02 11:46:09 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/24 00:13:13 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,10 +71,10 @@ void	ft_no_duplicates(t_meta *meta)
 	int	j;
 
 	i = -1;
-	while (meta->a.arr[++i])
+	while (++i < meta->a.size - 1)
 	{
 		j = i;
-		while (meta->a.arr[++j])
+		while (++j < meta->a.size)
 			if (meta->a.arr[i] == meta->a.arr[j])
 				ft_backtozero(meta, 1);
 	}
