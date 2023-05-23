@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/22 12:39:38 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/23 12:10:22 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -123,8 +123,12 @@ int	ft_quicksort_a(t_meta *meta, int n)
 			rot_count++;
 		}
 	}
-	while (rot_count-- && rot_count != meta->a.size)
-		ft_rra(meta, true);
+	if (rot_count <= meta->a.size / 2)
+		while (rot_count--)
+			ft_rra(meta, true);
+	else
+		while (rot_count-- && rot_count != meta->a.size)
+			ft_ra(meta, true);
 	if (n % 2 == 0)
 		return (ft_quicksort_a(meta, (n + 1) / 2 + 1)
 			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
@@ -162,8 +166,12 @@ int	ft_quicksort_b(t_meta *meta, int n)
 			rot_count++;
 		}
 	}
-	while (rot_count-- && meta->b.size != 1)
-		ft_rrb(meta, true);
+	if (rot_count <= meta->b.size / 2)
+		while (rot_count-- && meta->b.size != 1)
+			ft_rrb(meta, true);
+	else
+		while (rot_count-- && rot_count != meta->b.size)
+			ft_rb(meta, true);
 	if (n % 2 == 0)
 		return (ft_quicksort_a(meta, (n + 1) / 2 + 1)
 			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
