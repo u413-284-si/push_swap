@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:24:55 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/19 14:11:50 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/23 13:33:52 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ typedef struct s_meta
 	int		num_count;
 	t_stack	a;
 	t_stack	b;
+	t_list	*ops_head;
 }			t_meta;
 
 #endif

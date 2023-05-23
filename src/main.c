@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:15:52 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/23 12:12:22 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/23 15:11:58 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 #include "../inc/terminate.h"
 #include "../inc/initiate.h"
 #include "../inc/sort.h"
+#include "../inc/utils_ops.h"
 
 /* Sorting targets:
 * <= 5 values: max. 12 ops
@@ -31,11 +32,11 @@ int	main(int argc, char **argv)
 	ft_initiate(argv, &meta);
 	ft_no_duplicates(&meta);
 	ft_sort(&meta);
-	
-	//printf("%d\n\n", meta.num_count);
-/* 	printf("\n");
+	printf("\n\n");
+	ft_print_ops(&meta);
+	printf("\n");
 	int	i = 0;
 	while (++i <= meta.a.size)
-		printf("%d\n", meta.a.arr[meta.a.size - i]); */
+		printf("%d\n", meta.a.arr[meta.a.size - i]);
 	return (0);
 }
