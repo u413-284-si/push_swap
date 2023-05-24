@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 14:45:59 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/19 14:30:11 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/24 01:08:29 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -148,8 +148,12 @@ void	ft_rotate(char *s, int pos, t_meta *meta, char stack)
 	}
 }
 
-/* This function verifies whether the given stack is already sorted in ascending
-order starting from the smallest value at the top (= arr[total of numbers - 1]).
+/* This function verifies whether the given stack is already sorted depending
+on the order provided.
+In ascending order:
+	starting from the smallest value at the top (= arr[total of numbers - 1]).
+In descending order:
+	starting from the highest value at the top (= arr[total of numbers - 1]).
 */
 
 bool	ft_is_sorted(t_stack stack, int order)

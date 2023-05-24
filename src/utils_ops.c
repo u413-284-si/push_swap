@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 13:09:05 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/24 00:38:13 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/24 02:34:36 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,7 @@ and merges following operations, if they appear consecutively
 	ra + rb = rr
 	rra + rrb = rrr
 
-To achieve this objective the content of the first node is altered
-accordingly, the second node deleted and the link connected to the
-third node to continue the list. */
+*/
 
 void	ft_merge_ops(t_meta *meta)
 {
@@ -49,34 +47,46 @@ void	ft_merge_ops(t_meta *meta)
 	while (temp)
 	{
 		nxt = temp->next;
-		if (!(ft_strncmp(temp->content, "sa\n", 3)
-				|| ft_strncmp(nxt->content, "sb\n", 3))
-			|| !(ft_strncmp(temp->content, "sb\n", 3)
-				|| ft_strncmp(nxt->content, "sa\n", 3)))
-		{
-			temp->content = "ss\n";
-			temp->next = nxt->next;
-			free(nxt);
-		}
-		else if (!(ft_strncmp(temp->content, "ra\n", 3)
-				|| ft_strncmp(nxt->content, "rb\n", 3))
-			|| !(ft_strncmp(temp->content, "rb\n", 3)
-				|| ft_strncmp(nxt->content, "ra\n", 3)))
-		{
-			temp->content = "rr\n";
-			temp->next = nxt->next;
-			free(nxt);
-		}
-		else if (!(ft_strncmp(temp->content, "rra\n", 4) 
-				|| ft_strncmp(nxt->content, "rrb\n", 4))
-			|| !(ft_strncmp(temp->content, "rrb\n", 4)
-				|| ft_strncmp(nxt->content, "rra\n", 4)))
-		{
-			temp->content = "rrr\n";
-			temp->next = nxt->next;
-			free(nxt);
-		}
+		ft_merge_check(temp, nxt);
 		temp = temp->next;
+	}
+}
+
+/* This function compares the content of the current and following
+node. As the comparing function returns 0 in case of a matching content,
+the if-condition needs to be negated. The negation itself requires an 
+OR operand instead of the intuitive AND to state that both conditions
+are met (content of current and following node correspond to queried
+value).
+If conditions are met, the content of the current node is altered
+accordingly, the following node deleted and the link connected to the
+third node to continue the list. */
+
+void	ft_merge_check(t_list *temp, t_list *nxt)
+{
+	if (!(ft_strncmp(temp->content, "sa\n", 3) || ft_strncmp(nxt->content,
+				"sb\n", 3)) || !(ft_strncmp(temp->content, "sb\n", 3)
+			|| ft_strncmp(nxt->content, "sa\n", 3)))
+	{
+		temp->content = "ss\n";
+		temp->next = nxt->next;
+		free(nxt);
+	}
+	else if (!(ft_strncmp(temp->content, "ra\n", 3) || ft_strncmp(nxt->content,
+				"rb\n", 3)) || !(ft_strncmp(temp->content, "rb\n", 3)
+			|| ft_strncmp(nxt->content, "ra\n", 3)))
+	{
+		temp->content = "rr\n";
+		temp->next = nxt->next;
+		free(nxt);
+	}
+	else if (!(ft_strncmp(temp->content, "rra\n", 4) || ft_strncmp(nxt->content,
+				"rrb\n", 4)) || !(ft_strncmp(temp->content, "rrb\n", 4)
+			|| ft_strncmp(nxt->content, "rra\n", 4)))
+	{
+		temp->content = "rrr\n";
+		temp->next = nxt->next;
+		free(nxt);
 	}
 }
 

@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:15:52 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/24 00:54:23 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/24 01:42:42 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,10 @@ int	main(int argc, char **argv)
 	ft_sort(&meta);
 	ft_merge_ops(&meta);
 	ft_print_ops(&meta);
+	printf("\n");
+	int	i = 0;
+	while (++i <= meta.a.size)
+		printf("%d\n", meta.a.arr[meta.a.size - i]);
 	ft_backtozero(&meta, false);
 	return (0);
 }

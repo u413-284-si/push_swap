@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/23 12:10:22 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/24 01:39:58 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include "../inc/sort.h"
 #include "../inc/terminate.h"
 #include "../inc/simple_sort.h"
+#include "../inc/quicksort.h"
 #include "../inc/ops.h"
 #include "../inc/utils.h"
 #include "../inc/utils_insert.h"
@@ -95,88 +96,4 @@ void	ft_insertion_sort(t_meta *meta)
 	ft_sort_b_topdown(meta);
 	while (i-- >= 0)
 		ft_pa(meta, true);
-}
-
-int	ft_quicksort_a(t_meta *meta, int n)
-{
-	int	median;
-	int	i;
-	int	rot_count;
-
-	if (ft_is_sorted(meta->a, ASC))
-		return (1);
-	if (n <= 3)
-	{
-		ft_sort_three_within(meta, n);
-		return (1);
-	}
-	ft_get_median(meta, meta->a, n, &median);
-	i = n;
-	rot_count = 0;
-	while (i-- > 0)
-	{
-		if (meta->a.arr[meta->a.top] < median)
-			ft_pb(meta, true);
-		else if (meta->a.arr[meta->a.top] >= median)
-		{
-			ft_ra(meta, true);
-			rot_count++;
-		}
-	}
-	if (rot_count <= meta->a.size / 2)
-		while (rot_count--)
-			ft_rra(meta, true);
-	else
-		while (rot_count-- && rot_count != meta->a.size)
-			ft_ra(meta, true);
-	if (n % 2 == 0)
-		return (ft_quicksort_a(meta, (n + 1) / 2 + 1)
-			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
-	else
-		return (ft_quicksort_a(meta, (n + 1) / 2)
-			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
-	return (1);
-}
-
-int	ft_quicksort_b(t_meta *meta, int n)
-{
-	int	median;
-	int	i;
-	int	rot_count;
-
-	i = meta->b.size;
-	if (ft_is_sorted(meta->b, DSC))
-		while (i-- > 0)
-			ft_pa(meta, true);
-	if (n <= 3)
-	{
-		ft_fusion_sort_three(meta, n);
-		return (1);
-	}
-	ft_get_median(meta, meta->b, n, &median);
-	i = n;
-	rot_count = 0;
-	while (i-- > 0)
-	{
-		if (meta->b.arr[meta->b.top] >= median)
-			ft_pa(meta, 1);
-		else if (meta->b.arr[meta->b.top] < median)
-		{
-			ft_rb(meta, true);
-			rot_count++;
-		}
-	}
-	if (rot_count <= meta->b.size / 2)
-		while (rot_count-- && meta->b.size != 1)
-			ft_rrb(meta, true);
-	else
-		while (rot_count-- && rot_count != meta->b.size)
-			ft_rb(meta, true);
-	if (n % 2 == 0)
-		return (ft_quicksort_a(meta, (n + 1) / 2 + 1)
-			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
-	else
-		return (ft_quicksort_a(meta, (n + 1) / 2)
-			&& ft_quicksort_b(meta, (n + 1) / 2 - 1));
-	return (1);
 }
