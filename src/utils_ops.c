@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 13:09:05 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/24 02:34:36 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/25 02:17:35 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ void	ft_merge_ops(t_meta *meta)
 	while (temp)
 	{
 		nxt = temp->next;
+		if (!nxt)
+			return ;
 		ft_merge_check(temp, nxt);
 		temp = temp->next;
 	}
