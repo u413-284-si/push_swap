@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:10 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/24 01:39:58 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/25 01:58:30 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 #include "../inc/utils.h"
 #include "../inc/utils_insert.h"
 #include "../inc/utils_quicksort.h"
-
 
 /* This function differentiates between the amount of values to be sorted and
 assigns a sorting algorithm accordingly. Prior to that it calls a subfunction

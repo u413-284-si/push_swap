@@ -6,13 +6,14 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/24 01:11:22 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/24 02:16:15 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/25 01:35:30 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/push_swap.h"
 #include "../inc/quicksort.h"
 #include "../inc/ops.h"
+#include "../inc/median.h"
 #include "../inc/utils.h"
 #include "../inc/utils_quicksort.h"
 
@@ -61,7 +62,7 @@ int	ft_quicksort_a(t_meta *meta, int n)
 		return (1);
 	if (n <= 3)
 	{
-		ft_sort_three_within(meta, n);
+		ft_sort_stack_a(meta, n);
 		return (1);
 	}
 	ft_get_median(meta, meta->a, n, &median);

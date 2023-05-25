@@ -4,7 +4,7 @@ import random
 # Ask user for number of generated numbers
 num_of_numbers = int(input("Enter the number of generated numbers: "))
 
-# Ask user for range of generated numbers
+# Ask user for range of generated numbers 2147483647 -2147483648
 range_start = int(input("Enter the start of the range: "))
 range_end = int(input("Enter the end of the range: "))
 

@@ -6,14 +6,13 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 15:22:00 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/24 00:19:42 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/25 01:57:56 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/push_swap.h"
 #include "../inc/ops.h"
 #include "../inc/utils_ops.h"
-
 
 /* This function swaps the first two elements at the top of stack a. No action
 is performed if there is only one element or none. */
