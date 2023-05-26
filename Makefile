@@ -6,13 +6,14 @@
 #    By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/05 10:37:52 by sqiu              #+#    #+#              #
-#    Updated: 2023/05/25 01:32:17 by sqiu             ###   ########.fr        #
+#    Updated: 2023/05/26 15:28:20 by sqiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #Constants
 
 NAME		= push_swap
+BONUSNAME	= checker
 
 CFLAGS 		= -Wall -Wextra -Werror
 CPPFLAGS	= -I/usr/include -I./inc					# search in directories for included Makefiles
@@ -26,18 +27,25 @@ INCDIR		= ./inc/
 INCLIST		= error.h initiate.h input_check.h median.h ops.h push_swap.h \
 			quicksort.h simple_sort.h sort.h terminate.h utils_insert.h \
 			utils_ops.h utils_quicksort.h utils.h
+INCLIST_B	= error.h initiate.h input_check.h ops.h push_swap.h \
+			terminate.h utils.h
 INC			= $(addprefix ${INCDIR}, ${INCLIST})
+INC_B		= $(addprefix ${INCDIR}, ${INCLIST_B})
 
 SRCDIR		= ./src/
 SRCLIST		= initiate.c input_check.c main.c median.c ops_a.c ops_b.c quicksort.c \
 			simple_sort.c sort.c terminate.c utils_insert.c utils_ops.c utils_quicksort.c \
-			utils.c 
+			utils.c
+SRCLIST_B	= initiate.c input_check.c ops_a.c ops_b.c terminate.c utils.c
 SRC			= $(addprefix ${SRCDIR}, ${SRCLIST})
+SRC_B		= $(addprefix ${SRCDIR}, ${SRCLIST_B})
 
 
 OBJDIR		= ./obj/
 OBJLIST		= $(SRCLIST:%.c=%.o)
+OBJLIST_B	= $(SRCLIST_B:%.c=%.o)
 OBJ			= $(addprefix ${OBJDIR}, ${OBJLIST})
+OBJ_B		= $(addprefix ${OBJDIR}, ${OBJLIST_B})
 
 
 #Colours
@@ -64,11 +72,19 @@ WHITE = \033[1;97m
 
 all:			$(NAME)
 
+bonus:			$(BONUSNAME)
+
 $(NAME):		$(OBJDIR) $(OBJ)
 				@echo "\n$(MAGENTA)Compiling: $@ $(DEF_COLOUR)\n"
 				@$(MAKE) all --no-print-directory -C ./libft
 				@$(CC) $(OBJ) $(LDFLAGS) $(LDLIBS) $(CPPFLAGS) $(DEBUG) -o $@
 				@echo "\n$(FAT_MAGENTA)$@ compiled! 🍾$(DEF_COLOUR)"
+
+$(BONUSNAME):	$(OBJDIR) $(OBJ_B)
+				@echo "\n$(MAGENTA)Compiling: $@ $(DEF_COLOUR)\n"
+				@$(MAKE) all --no-print-directory -C ./libft
+				@$(CC) $(OBJ_B) $(LDFLAGS) $(LDLIBS) $(CPPFLAGS) $(DEBUG) -o $@
+				@echo "\n$(FAT_MAGENTA)$@ compiled! 🔥$(DEF_COLOUR)"
 
 $(OBJDIR)%.o:	$(SRCDIR)%.c $(INC)
 				@$(CC) $(CFLAGS) $(CPPFLAGS) $(OPTION) $(DEBUG) $< -o $@
@@ -84,6 +100,7 @@ clean:
 fclean: 		clean
 				@$(MAKE) fclean --no-print-directory -C ./libft
 				@rm -f $(NAME)
+				@rm -f $(BONUSNAME)
 				@echo "$(FAT_RED)executable cleaned! 👹$(DEF_COLOUR)"
 
 re: 			fclean all
@@ -97,4 +114,4 @@ valgr:
 						./push_swap 56 5 80 55 22 47 63 1 14 42 57 20 4
 				@less ./valgrind-out.txt
 
-.PHONY: 		all clean fclean re valgr
+.PHONY: 		all bonus clean fclean re valgr
