@@ -1,9 +1,17 @@
 # push_swap
-This project sorts integers on a stack - which are provided in a random order - into an ascending order by applying a limited set of operations. The goal of the project is to identify and familiarise oneself with various sorting algorithms, choosing the most adept approach to sort the stack in the most efficient manner.
+This project is an implementation of a sorting algorithm which sorts numbers provided in a random sequence into an ascending order by applying a limited set of operations. These operations allow the modification of two stacks which contain the numbers. The goal of the project is to identify and familiarise oneself with various sorting algorithms, choosing the most adept approach to sort the numbers in the most efficient manner. 
 
 ## Project Overview
 
-The integer values are provided in a first stack 'a'. Their range spans positive as well as negative numbers, but there cannot be duplicates. A second stack 'b' serves as temporary buffer to store and manipulate selected values. A set of operations are allowed to transfer values between the stacks and manipulate their position within each respective stack.
+The integer values are initially read into stack 'a'. Their range spans positive as well as negative numbers, but there are a number of limitations:
+
+* no non-numerical values
+* no duplicates
+* no values out of the boundaries of an integer
+
+If one of these limitations is not fullfilled, the program aborts and displays an error message.
+
+A second stack 'b' serves as a temporary buffer to store and manipulate selected values. A predefined set of operations is allowed to transfer values between the stacks and manipulate their position within each respective stack. Per definition of stacks only the top values of a stack can be removed from it and new additions to a stack land on the top - according to the "LIFO = Last in first out" principle.
 
 <pre>
 <b>sa</b> (swap a): Swap the first 2 elements at the top of stack a.
@@ -37,6 +45,21 @@ The last element becomes the first one.
 <b>rrr</b> : rra and rrb at the same time.
 </pre>
 
-The goal is to sort in ascending order the numbers into stack 'a'. The minimum required operations to achieve this goal are displayed unto the terminal.
+The goal is to sort the numbers in ascending order into stack 'a'. The operations required to achieve this goal are displayed unto the terminal. A minimal amount of required operations is aspired to - this being a KPI for the efficiency of the implemented algorithm.
 
 ## Installation
+```
+git clone git@github.com:u413-284-si/push_swap.git
+cd push_swap
+make
+./push_swap <random numbers>
+```
+
+For bonus program (while within the push_swap directory):
+
+```
+make bonus
+./checker <random numbers>
+<input to stdin> <ENTER>
+<end read from stdin with CTRL+D>
+```
