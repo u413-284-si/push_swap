@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:46:30 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/24 00:13:13 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/26 13:39:09 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,8 @@ int	ft_is_num(char *s)
 	if (!ft_isdigit(s[i]))
 		return (0);
 	while (ft_isdigit(s[i]))
+		i++;
+	while (s[i] == ' ' || (s[i] >= 9 && s[i] <= 13))
 		i++;
 	return (i);
 }

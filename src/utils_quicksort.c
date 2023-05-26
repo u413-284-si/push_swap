@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 14:41:45 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/25 01:50:25 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/26 13:21:24 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_fusion_sort_three(t_meta *meta, int n)
 {
 	if (n == 1)
 		ft_pa(meta, true);
-	if (n == 2)
+	if (n == 2 && meta->b.size > 1)
 	{
 		if (meta->b.arr[meta->b.top] < meta->b.arr[meta->b.top - 1])
 			ft_sb(meta, true);
