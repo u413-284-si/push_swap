@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:24:55 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/23 13:33:52 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/26 15:53:21 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@
 # include <limits.h>				/* required for INT_MIN and INT_MAX*/
 # include "../libft/ft_printf/ft_printf.h"
 # include "../libft/libft.h"
+# include "../libft/gnl/get_next_line_bonus.h"
 
 /* ====== DEFINITIONS ====== */
 

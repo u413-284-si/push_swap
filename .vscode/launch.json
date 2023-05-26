@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "pushswap debug",
+            "name": "checker debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/push_swap",
-            "args": ["7 3 4   "],
+            "program": "${workspaceFolder}/checker",
+            "args": ["2 3 1"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [{ "name": "config", "value": "Debug" }],

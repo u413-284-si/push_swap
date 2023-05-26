@@ -6,7 +6,7 @@
 #    By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/05 10:37:52 by sqiu              #+#    #+#              #
-#    Updated: 2023/05/26 15:28:20 by sqiu             ###   ########.fr        #
+#    Updated: 2023/05/26 16:32:17 by sqiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,8 +27,8 @@ INCDIR		= ./inc/
 INCLIST		= error.h initiate.h input_check.h median.h ops.h push_swap.h \
 			quicksort.h simple_sort.h sort.h terminate.h utils_insert.h \
 			utils_ops.h utils_quicksort.h utils.h
-INCLIST_B	= error.h initiate.h input_check.h ops.h push_swap.h \
-			terminate.h utils.h
+INCLIST_B	= checker.h error.h initiate.h input_check.h ops.h push_swap.h \
+			terminate.h utils_ops.h utils.h
 INC			= $(addprefix ${INCDIR}, ${INCLIST})
 INC_B		= $(addprefix ${INCDIR}, ${INCLIST_B})
 
@@ -36,7 +36,8 @@ SRCDIR		= ./src/
 SRCLIST		= initiate.c input_check.c main.c median.c ops_a.c ops_b.c quicksort.c \
 			simple_sort.c sort.c terminate.c utils_insert.c utils_ops.c utils_quicksort.c \
 			utils.c
-SRCLIST_B	= initiate.c input_check.c ops_a.c ops_b.c terminate.c utils.c
+SRCLIST_B	= checker.c initiate.c input_check.c ops_a.c ops_b.c terminate.c \
+			utils_ops.c utils.c
 SRC			= $(addprefix ${SRCDIR}, ${SRCLIST})
 SRC_B		= $(addprefix ${SRCDIR}, ${SRCLIST_B})
 

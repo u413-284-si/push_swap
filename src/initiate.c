@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 14:59:15 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/26 12:56:19 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/26 18:20:30 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,9 +99,9 @@ int	ft_atoi_mod(const char *str, t_meta *meta)
 	{
 		result = result * 10 + str[i++] - '0';
 		if (result * sign > 2147483647)
-			ft_backtozero(meta, 1);
+			ft_backtozero(meta, true);
 		if (result * sign < -2147483648)
-			ft_backtozero(meta, 1);
-	}		
+			ft_backtozero(meta, true);
+	}
 	return (result * sign);
 }
