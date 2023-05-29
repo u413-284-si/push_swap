@@ -76,10 +76,10 @@ For **n > 64** a recursive version of quicksort is applied. It creates two empty
 
 Stack b represents the part with values smaller than the pivot. Stack a contains values equal or greater than the pivot. All values in stack a are compared to the pivot and sorted accordingly into stack a or b. As this requires the array to be rotated (only pushing of top element possible), the rotation eventually needs to be reversed to the initial sequence minus the pushed values. Then the algorithm is recursively calling itself on both stacks while providing the number of values present in each stack in its call. This number depends on the previous total n being odd or even.
 
-**Even:** 
+**Even:** <br />
 	Stack a contains (n + 1) / 2 + 1 values <br />
 	Stack b contains (n + 1) / 2 - 1 values <br />
-**Odd:**
+**Odd:** <br />
 	Stack a contains (n + 1) / 2 values <br />
 	Stakc b contains (n + 1) / 2 - 1 values <br />
 
