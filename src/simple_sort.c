@@ -6,7 +6,7 @@
 /*   By: sqiu <sqiu@student.42vienna.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 15:51:57 by sqiu              #+#    #+#             */
-/*   Updated: 2023/05/19 14:15:22 by sqiu             ###   ########.fr       */
+/*   Updated: 2023/05/29 14:29:31 by sqiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,10 +109,11 @@ void	ft_sort_five(t_meta *meta)
 		else
 			ft_rotate("down", pos, meta, 'a');
 		if (ft_is_sorted(meta->a, ASC))
-			ft_backtozero(meta, 0);
+			break ;
 		ft_pb(meta, true);
 	}
-	ft_sort_three(meta);
-	ft_pa(meta, true);
-	ft_pa(meta, true);
+	if (!(ft_is_sorted(meta->a, ASC)))
+		ft_sort_three(meta);
+	while (i-- > 0)
+		ft_pa(meta, true);
 }
