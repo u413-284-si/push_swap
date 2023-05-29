@@ -59,6 +59,8 @@ A mixture of different sorting algorithms are implemented.
 
 **For up to n = 5** numerical values a simple sorting algorithm is called. 
 
+---
+
 If **5 < n <= 64** insertion sort is applied. The values are split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part. Stack b represents the sorted part, stack a the unsorted. The top both values of stack a are compared and the smaller one swapped to the top. Before pushing this value x over to stack b the correct position in b is identified and presented by rotating the directly inferior value y (y < x) in b to the top.  When all but one value (the max of all values) are pushed to b, it is rotated to a descending order so that its max value is on top. Finally all values are pushed back to a.
 
 | Time complexity:	| Average	| Best	| Worst	|
@@ -67,6 +69,8 @@ If **5 < n <= 64** insertion sort is applied. The values are split into a sorted
 
 Space: const.
 Stability: stable
+
+---
 
 For **n > 64** a recursive version of quicksort is applied. It creates two empty arrays to hold elements less than the pivot value and elements greater than the pivot value, and then recursively applies itself on the created two sub arrays. As time complexity is not taken into account for this program the median value of each array is calculated and chosen as the pivot. This increases the effectivity of quick sort. Stack b represents the part with values smaller than the pivot. Stack a contains values equal or greater than the pivot. All values in stack a are compared to the pivot and sorted accordingly into stack a or b. As this requires the array to be rotated (only pushing of top element possible), the rotation eventually needs to be reversed to the initial sequence minus the pushed values. Then the algorithm is recursively calling itself on both stacks while providing
 the number of values present in each stack in its call. This number depends on the previous total n being odd or even.
@@ -113,5 +117,4 @@ For bonus program (while within the push_swap directory):
 
 ```
 make bonus
-
 ```
