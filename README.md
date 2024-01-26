@@ -108,7 +108,7 @@ or
 
 ## Installation
 ```
-git clone git@github.com:u413-284-si/push_swap.git
+git clone --recursive git@github.com:u413-284-si/push_swap.git
 cd push_swap
 make
 ./push_swap <random numbers>
